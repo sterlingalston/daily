@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Schedule Chart</title>
+    <title>Weekly Schedule</title>
     <style>
         @media print {
             body { margin: 0.5in; }
@@ -14,260 +14,356 @@
                 print-color-adjust: exact !important;
             }
         }
-        
+
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
             background: white;
         }
-        
+
         h1 {
             text-align: center;
             color: #2c3e50;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             font-size: 24px;
         }
-        
+
+        h2 {
+            color: #2c3e50;
+            font-size: 16px;
+            margin: 24px 0 6px 0;
+            padding: 6px 10px;
+            background-color: #34495e;
+            color: white;
+            border-radius: 4px;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
-        
+
         th, td {
-            border: 2px solid #34495e;
-            padding: 8px 12px;
+            border: 1px solid #bdc3c7;
+            padding: 6px 10px;
             text-align: left;
             vertical-align: top;
         }
-        
+
         th {
             background-color: #3498db;
             color: white;
             font-weight: bold;
-            font-size: 14px;
+            font-size: 13px;
         }
-        
+
         td {
             font-size: 12px;
             line-height: 1.4;
         }
-        
+
         .time-col {
-            width: 15%;
+            width: 18%;
             font-weight: bold;
             background-color: #ecf0f1;
+            white-space: nowrap;
         }
-        
+
         .activity-col {
-            width: 85%;
+            width: 82%;
         }
-        
-        .work { 
-            background-color: #e8f4fd; 
-            border-left: 6px solid #3498db;
+
+        /* Category colors */
+        .tech {
+            background-color: #e8f4fd;
+            border-left: 5px solid #3498db;
         }
-        .hobby { 
-            background-color: #e8f8f5; 
-            border-left: 6px solid #27ae60;
+        .language {
+            background-color: #e8f8f5;
+            border-left: 5px solid #27ae60;
         }
-        .exercise { 
-            background-color: #fef9e7; 
-            border-left: 6px solid #f39c12;
+        .exercise {
+            background-color: #fef9e7;
+            border-left: 5px solid #f39c12;
         }
-        .break { 
-            background-color: #f8f9fa; 
-            border-left: 6px solid #95a5a6;
+        .music {
+            background-color: #f3e5f5;
+            border-left: 5px solid #9b59b6;
         }
-        .buffer { 
-            background-color: #fff2e6; 
-            border-left: 6px solid #e67e22;
+        .entertainment {
+            background-color: #f8f9fa;
+            border-left: 5px solid #95a5a6;
         }
-        .dj { 
-            background-color: #f3e5f5; 
-            border-left: 6px solid #9b59b6;
+        .chores {
+            background-color: #fdf2e9;
+            border-left: 5px solid #d68910;
         }
-        .errands { 
-            background-color: #fdf2e9; 
-            border-left: 6px solid #d68910;
-        }
-        
+
         .legend {
             display: flex;
             justify-content: center;
-            gap: 20px;
-            margin-top: 15px;
+            gap: 18px;
+            margin-top: 20px;
             font-size: 11px;
             flex-wrap: wrap;
         }
-        
+
         .legend-item {
             display: flex;
             align-items: center;
             gap: 5px;
         }
-        
+
         .legend-box {
-            width: 15px;
-            height: 15px;
-            border: 2px solid #333;
+            width: 14px;
+            height: 14px;
+            border: 1px solid #333;
         }
-        
-        .legend .work { border-left: 6px solid #3498db; background-color: #e8f4fd; }
-        .legend .hobby { border-left: 6px solid #27ae60; background-color: #e8f8f5; }
-        .legend .exercise { border-left: 6px solid #f39c12; background-color: #fef9e7; }
-        .legend .break { border-left: 6px solid #95a5a6; background-color: #f8f9fa; }
-        .legend .buffer { border-left: 6px solid #e67e22; background-color: #fff2e6; }
-        .legend .dj { border-left: 6px solid #9b59b6; background-color: #f3e5f5; }
-        .legend .errands { border-left: 6px solid #d68910; background-color: #fdf2e9; }
-        
-        .notes {
-            margin-top: 20px;
-            font-size: 11px;
-            color: #555;
-            border-top: 1px solid #ddd;
-            padding-top: 15px;
-        }
-        
-        .notes h3 {
-            margin-top: 0;
-            color: #2c3e50;
-            font-size: 13px;
-        }
+
+        .legend .tech       { background-color: #e8f4fd; border-left: 5px solid #3498db; }
+        .legend .language   { background-color: #e8f8f5; border-left: 5px solid #27ae60; }
+        .legend .exercise   { background-color: #fef9e7; border-left: 5px solid #f39c12; }
+        .legend .music      { background-color: #f3e5f5; border-left: 5px solid #9b59b6; }
+        .legend .entertainment { background-color: #f8f9fa; border-left: 5px solid #95a5a6; }
+        .legend .chores     { background-color: #fdf2e9; border-left: 5px solid #d68910; }
     </style>
 </head>
 <body>
-    <h1>Daily Schedule for Work-Life Balance</h1>
-    <div style="text-align: center; margin-bottom: 15px; font-size: 12px; color: #666;">
-        <strong>Weekend DJ Schedule:</strong> Saturday 9:00-11:00 AM Practice • Sunday 8:00-9:00 AM Music Mgmt, 9:00-11:00 AM Practice, 11:30 AM-12:30 PM Groceries
-    </div>
-    
+    <h1>Weekly Schedule</h1>
+
+    <!-- ===== MONDAY & WEDNESDAY ===== -->
+    <h2>Monday &amp; Wednesday</h2>
     <table>
         <thead>
-            <tr>
-                <th>Time</th>
-                <th>Activity</th>
-            </tr>
+            <tr><th>Time</th><th>Activity</th></tr>
         </thead>
         <tbody>
             <tr>
-                <td class="time-col">4:00-5:00 AM</td>
-                <td class="activity-col hobby"><strong>Language Study</strong> (1 hour - German/Japanese)</td>
+                <td class="time-col">4:00–5:00 AM</td>
+                <td class="activity-col tech"><strong>TryHackMe</strong></td>
             </tr>
             <tr>
-                <td class="time-col">5:00-6:15 AM</td>
-                <td class="activity-col exercise"><strong>Calibre Workout</strong> (1h 15m including travel)</td>
+                <td class="time-col">5:00–6:00 AM</td>
+                <td class="activity-col exercise"><strong>Gym</strong></td>
             </tr>
             <tr>
-                <td class="time-col">6:15-8:00 AM</td>
-                <td class="activity-col buffer">Travel home, shower, breakfast, get ready</td>
+                <td class="time-col">9:30–10:30 AM</td>
+                <td class="activity-col tech"><strong>Linux</strong></td>
             </tr>
             <tr>
-                <td class="time-col">8:00-10:00 AM</td>
-                <td class="activity-col work"><strong>Core Work</strong> (2h)</td>
+                <td class="time-col">12:30–1:30 PM</td>
+                <td class="activity-col language"><strong>Languages</strong></td>
             </tr>
             <tr>
-                <td class="time-col">10:00-10:15 AM</td>
-                <td class="activity-col break"><strong>Coffee Break</strong></td>
+                <td class="time-col">3:30–4:30 PM</td>
+                <td class="activity-col language"><strong>Japanese</strong> &amp; <strong>TryHackMe</strong></td>
             </tr>
             <tr>
-                <td class="time-col">10:15-12:00 PM</td>
-                <td class="activity-col work"><strong>Core Work</strong> (1h 45m)</td>
+                <td class="time-col">6:00–7:00 PM</td>
+                <td class="activity-col exercise"><strong>Gym / PE Stretch</strong></td>
             </tr>
             <tr>
-                <td class="time-col">12:00-1:00 PM</td>
-                <td class="activity-col hobby"><strong>Guitar Practice, Review Japanese & Lunch</strong> (1 hour)</td>
+                <td class="time-col">8:00–9:00 PM</td>
+                <td class="activity-col music"><strong>Guitar</strong></td>
             </tr>
             <tr>
-                <td class="time-col">1:00-2:45 PM</td>
-                <td class="activity-col work"><strong>Core Work</strong> (1h 45m)</td>
+                <td class="time-col">9:00–10:00 PM</td>
+                <td class="activity-col music"><strong>Music 10</strong></td>
             </tr>
             <tr>
-                <td class="time-col">2:45-3:00 PM</td>
-                <td class="activity-col break"><strong>Afternoon Break</strong></td>
-            </tr>
-            <tr>
-                <td class="time-col">3:00-4:30 PM</td>
-                <td class="activity-col hobby"><strong>Study Time</strong> (1.5 hours - professional development, certifications)</td>
-            </tr>
-            <tr>
-                <td class="time-col">4:30-5:00 PM</td>
-                <td class="activity-col exercise"><strong>Stretch & Prep for Muay Thai</strong> (30 minutes)</td>
-            </tr>
-            <tr>
-                <td class="time-col">5:00-7:30 PM</td>
-                <td class="activity-col exercise"><strong>Muay Thai</strong> (2.5 hours including travel)</td>
-            </tr>
-            <tr>
-                <td class="time-col">7:30-8:00 PM</td>
-                <td class="activity-col buffer">Travel home</td>
-            </tr>
-            <tr>
-                <td class="time-col">8:00-8:30 PM</td>
-                <td class="activity-col break">Shower, dinner</td>
-            </tr>
-            <tr>
-                <td class="time-col">8:30-9:15 PM</td>
-                <td class="activity-col dj"><strong>DJ Practice</strong> (45 minutes)</td>
-            </tr>
-            <tr>
-                <td class="time-col">9:15-10:00 PM</td>
-                <td class="activity-col hobby"><strong>Reading</strong> (45 minutes)</td>
-            </tr>
-            <tr>
-                <td class="time-col">10:00-10:45 PM</td>
-                <td class="activity-col hobby"><strong>Comedy Material Reading</strong> (45 minutes)</td>
-            </tr>
-            <tr>
-                <td class="time-col">10:45-11:00 PM</td>
-                <td class="activity-col buffer"><strong>Wind-down</strong> (prep tomorrow, relax)</td>
+                <td class="time-col">10:00–11:00 PM</td>
+                <td class="activity-col entertainment"><strong>Comedy</strong></td>
             </tr>
         </tbody>
     </table>
-    
+
+    <!-- ===== TUESDAY & THURSDAY ===== -->
+    <h2>Tuesday &amp; Thursday</h2>
+    <table>
+        <thead>
+            <tr><th>Time</th><th>Activity</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="time-col">4:00–5:00 AM</td>
+                <td class="activity-col tech"><strong>Cert</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">5:00–6:00 AM</td>
+                <td class="activity-col exercise"><strong>Gym</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">9:30–10:30 AM</td>
+                <td class="activity-col tech"><strong>SQL / Stats</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">12:30–1:30 PM</td>
+                <td class="activity-col language"><strong>Languages</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">3:30–4:30 PM</td>
+                <td class="activity-col language"><strong>Japanese</strong> &amp; <strong>Cert</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">6:00–7:00 PM</td>
+                <td class="activity-col exercise"><strong>Gym / PE Stretch</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">8:00–9:00 PM</td>
+                <td class="activity-col music"><strong>Guitar</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">9:00–10:00 PM</td>
+                <td class="activity-col music"><strong>Music 10</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">10:00–11:00 PM</td>
+                <td class="activity-col entertainment"><strong>Comedy</strong></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- ===== FRIDAY ===== -->
+    <h2>Friday</h2>
+    <table>
+        <thead>
+            <tr><th>Time</th><th>Activity</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="time-col">5:00–6:00 AM</td>
+                <td class="activity-col exercise"><strong>Gym</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">9:30–10:30 AM</td>
+                <td class="activity-col tech"><strong>Linux</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">12:30–1:30 PM</td>
+                <td class="activity-col language"><strong>Languages</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">2:30–4:00 PM</td>
+                <td class="activity-col tech"><strong>Fast.ai</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">6:00–7:00 PM</td>
+                <td class="activity-col exercise"><strong>Gym / PE Stretch</strong></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- ===== SATURDAY ===== -->
+    <h2>Saturday</h2>
+    <table>
+        <thead>
+            <tr><th>Time</th><th>Activity</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="time-col">7:00–9:00 AM</td>
+                <td class="activity-col tech"><strong>Fast.ai</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">9:00–10:00 AM</td>
+                <td class="activity-col language"><strong>Japanese</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">10:00–11:00 AM</td>
+                <td class="activity-col language"><strong>Spanish / German</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">11:00 AM–12:00 PM</td>
+                <td class="activity-col exercise"><strong>Gym</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">12:15–1:15 PM</td>
+                <td class="activity-col chores"><strong>Errands</strong></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- ===== SUNDAY ===== -->
+    <h2>Sunday</h2>
+    <table>
+        <thead>
+            <tr><th>Time</th><th>Activity</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="time-col">8:00–9:00 AM</td>
+                <td class="activity-col chores"><strong>Groceries / Meal Prep</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">9:00–10:00 AM</td>
+                <td class="activity-col chores"><strong>Laundry</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">10:00–11:00 AM</td>
+                <td class="activity-col chores"><strong>Trim Finn's Nails</strong> <em>(bi-weekly)</em></td>
+            </tr>
+            <tr>
+                <td class="time-col">11:00 AM–12:00 PM</td>
+                <td class="activity-col exercise"><strong>Gym</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">12:15–1:15 PM</td>
+                <td class="activity-col chores"><strong>Errands</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">2:30–4:00 PM</td>
+                <td class="activity-col chores"><strong>Projects</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">4:00–5:00 PM</td>
+                <td class="activity-col chores"><strong>Work FL</strong> &nbsp;<span style="color:#888;font-size:11px;">/ Cat Litter (bi-weekly)</span></td>
+            </tr>
+            <tr>
+                <td class="time-col">5:00–6:00 PM</td>
+                <td class="activity-col tech"><strong>A.I.</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">6:00–7:00 PM</td>
+                <td class="activity-col tech"><strong>Certs</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">8:00–9:00 PM</td>
+                <td class="activity-col music"><strong>Guitar</strong></td>
+            </tr>
+            <tr>
+                <td class="time-col">10:00–11:00 PM</td>
+                <td class="activity-col entertainment"><strong>Comedy</strong></td>
+            </tr>
+        </tbody>
+    </table>
+
     <div class="legend">
         <div class="legend-item">
-            <div class="legend-box work"></div>
-            <span>Work</span>
+            <div class="legend-box tech"></div>
+            <span>Tech / Study</span>
         </div>
         <div class="legend-item">
-            <div class="legend-box hobby"></div>
-            <span>Hobbies</span>
+            <div class="legend-box language"></div>
+            <span>Language</span>
         </div>
         <div class="legend-item">
             <div class="legend-box exercise"></div>
             <span>Exercise</span>
         </div>
         <div class="legend-item">
-            <div class="legend-box break"></div>
-            <span>Breaks</span>
+            <div class="legend-box music"></div>
+            <span>Music</span>
         </div>
         <div class="legend-item">
-            <div class="legend-box buffer"></div>
-            <span>Buffer Time</span>
+            <div class="legend-box entertainment"></div>
+            <span>Entertainment</span>
         </div>
         <div class="legend-item">
-            <div class="legend-box dj"></div>
-            <span>DJ Practice</span>
+            <div class="legend-box chores"></div>
+            <span>Chores / Errands</span>
         </div>
-        <div class="legend-item">
-            <div class="legend-box errands"></div>
-            <span>Errands</span>
-        </div>
-    </div>
-    
-    <div class="notes">
-        <h3>Quick Flexibility Tips:</h3>
-        <strong>Bad days:</strong> Skip study time, use for extra buffer • 
-        <strong>Long work days:</strong> Extend work hours, reduce evening hobbies • 
-        <strong>Tired mornings:</strong> Skip language study and/or Calibre workout, sleep in • 
-        <strong>Social events:</strong> Use evening buffer time<br>
-        <strong>Weekend Schedule:</strong> 
-        <em>Saturday:</em> 9:00-11:00 AM DJ practice • 
-        <em>Sunday:</em> 8:00-9:00 AM Music management, 9:00-11:00 AM DJ practice, 11:30 AM-12:30 PM Groceries & meal prep<br>
-        <strong>Alternate:</strong> Quality time with Kim after Muay Thai (7:30-8:30 PM) - can replace evening DJ/reading/comedy as desired<br>
-        <strong>Totals:</strong> Work: 6h • Hobbies: 5.75h weekdays (1.5h study, 1h language, 1h guitar/Japanese review, 45m reading, 45m DJ, 45m comedy) + 5h DJ weekends • Exercise: 1h 15m Calibre + 30m stretch + 2.5h Muay Thai • Buffer: 2.5h built-in flexibility
     </div>
 </body>
 </html>
