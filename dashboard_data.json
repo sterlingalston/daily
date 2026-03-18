@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-17 16:00:02",
+  "generated_at": "2026-03-18 16:00:03",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-03-17 15:00:07",
+      "last_run": "2026-03-18 15:00:07",
       "status": "warning",
       "progress": 58,
       "steps": [
@@ -792,18 +792,18 @@
         "Rsync errors": 1
       },
       "log_tail": [
-        "scripts/",
+        "rsync: [generator] symlink \"/home/malston/q/monochrome/resources\" -> \"dist\" failed: Input/output error (5)",
         "",
-        "sent 5,159 bytes  received 159 bytes  343.10 bytes/sec",
-        "total size is 21,149,284  speedup is 3,976.92",
+        "sent 5,069 bytes  received 69 bytes  153.37 bytes/sec",
+        "total size is 21,149,284  speedup is 4,116.25",
         "rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1338) [sender=3.2.7]",
-        "[2026-03-17 15:04:00] Synced: monochrome",
-        "[2026-03-17 15:04:00] SKIP (not found): Motorcycle",
-        "[2026-03-17 15:04:00] SKIP (not found): Movies_TV",
-        "[2026-03-17 15:04:00] SKIP (not found): MSA Analytics 2020",
+        "[2026-03-18 15:04:36] Synced: monochrome",
+        "[2026-03-18 15:04:36] SKIP (not found): Motorcycle",
+        "[2026-03-18 15:04:36] SKIP (not found): Movies_TV",
+        "[2026-03-18 15:04:36] SKIP (not found): MSA Analytics 2020",
         "sending incremental file list"
       ],
-      "next_run": "2026-03-18 12:00:00"
+      "next_run": "2026-03-19 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -817,6 +817,10 @@
         "Tracks imported (total)": 0
       },
       "log_tail": [
+        "    client_id = os.environ[\"SPOTIFY_CLIENT_ID\"]",
+        "                ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^",
+        "  File \"<frozen os>\", line 717, in __getitem__",
+        "KeyError: 'SPOTIFY_CLIENT_ID'",
         "Traceback (most recent call last):",
         "  File \"/home/malston/mcloud_playlists/import_spotify.py\", line 27, in <module>",
         "    client_id = os.environ[\"SPOTIFY_CLIENT_ID\"]",
@@ -824,40 +828,40 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-03-18 13:00:00"
+      "next_run": "2026-03-19 13:00:00"
     },
     {
       "name": "Sync KCRW",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-03-17 15:29:28",
-      "status": "error",
-      "progress": 50,
+      "last_run": "2026-03-18 15:59:57",
+      "status": "ok",
+      "progress": 100,
       "steps": [],
       "counts": {
-        "Tracks synced (total)": 6121
+        "Tracks synced (total)": 7184
       },
       "log_tail": [
-        "2026-03-17 15:28:55,357 INFO   + RIO KOSTA - It's Starting (Jaime Rosso Remix) [365655617]",
-        "2026-03-17 15:28:57,491 INFO   + Automatic - The Prize [339970076]",
-        "2026-03-17 15:29:00,311 INFO   + Fleetwood Mac - Second Hand News (Live at The Forum, Inglewood, CA, 10/22/82) (2024 Remaster) [279996612]",
-        "2026-03-17 15:29:03,467 INFO   + Young Disciples - Step Right On (Dub) [209454326]",
-        "2026-03-17 15:29:06,228 INFO   + Leyla Ebrahimi - i\u2019m too pretty for this [349643893]",
-        "2026-03-17 15:29:09,813 INFO   + Dina \u00d6gon - Orden brann [362748390]",
-        "2026-03-17 15:29:12,947 WARNING   NOT FOUND on dabmusic: Alice Russell | Mirror Mirror on the Wolf-'Tell the Story Right'",
-        "2026-03-17 15:29:26,196 INFO   fallback yt-dlp: Alice Russell - Mirror Mirror on the Wolf-'Tell the Story Right'",
-        "2026-03-17 15:29:26,197 ERROR   ERROR: Alice Russell | Mirror Mirror on the Wolf-'Tell the Story Right' \u2192 [Errno 2] No such file or directory: 'yt-dlp'",
-        "2026-03-17 15:29:28,654 INFO   fallback yt-dlp: Alice Russell - Mirror Mirror on the Wolf-'Tell the Story Right'"
+        "2026-03-18 15:59:35,171 INFO   + Rosario Ortega - C\u00f3mo Te Extra\u00f1o Mi Amor [181932373]",
+        "2026-03-18 15:59:37,013 INFO   + Etta James - At Last [53119557]",
+        "2026-03-18 15:59:39,880 INFO   + YACHT - Finger In Your Eye [277195987]",
+        "2026-03-18 15:59:42,644 INFO   + VEAUX - Rah Tah Tah [332956116]",
+        "2026-03-18 15:59:44,283 INFO   + Kate Stein - Chemistry [329470542]",
+        "2026-03-18 15:59:47,457 INFO   + Al Nicol - You and Me (feat. Erin Rae) [336607144]",
+        "2026-03-18 15:59:50,324 INFO   + Goldfrapp - Thea [11184881]",
+        "2026-03-18 15:59:52,576 INFO   + Die Antwoord - Age Of Illusion [170202629]",
+        "2026-03-18 15:59:54,981 INFO   + Stephan B - London\u2019s Still Calling (and We\u2019re Cool) [364669736]",
+        "2026-03-18 15:59:57,935 INFO   + Beck - Love [386694230]"
       ],
-      "next_run": "2026-03-18 14:00:00"
+      "next_run": "2026-03-19 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-03-17 14:00:01",
+      "last_run": "2026-03-18 14:00:01",
       "status": "error",
-      "progress": 42,
+      "progress": 85,
       "steps": [
         {
           "name": "import_kcrw.py",
@@ -870,25 +874,37 @@
         {
           "name": "kcrw_monochrome_import.py",
           "status": "error"
+        },
+        {
+          "name": "local_kcrw_import.py",
+          "status": "ok"
+        },
+        {
+          "name": "soundcloud_search.py",
+          "status": "ok"
+        },
+        {
+          "name": "download_soundcloud_errors.py",
+          "status": "ok"
         }
       ],
       "counts": {
-        "Scripts OK": 2,
+        "Scripts OK": 5,
         "Scripts failed": 1
       },
       "log_tail": [
-        "  instance https://hund.qqdl.site failed: 401 Client Error: Unauthorized for url: https://hund.qqdl.site/search/?s=RUFUS+DU+SOL+Tyrone+Lindqvist+%28of+Rufus+Du+Sol%29+in+conversation+with+Chris+Douridas&limit=5",
-        "  \u2717 not found",
-        "  searching: Weval \u2014 The Weight",
-        "  \u2013 already in playlist, skipping",
-        "  searching: RUFUS DU SOL \u2014 Tyrone Lindqvist (of Rufus Du Sol) in conversation with Chris Douridas",
-        "  instance https://triton.squid.wtf failed: 502 Server Error: Bad Gateway for url: https://triton.squid.wtf/search/?s=RUFUS+DU+SOL+Tyrone+Lindqvist+%28of+Rufus+Du+Sol%29+in+conversation+with+Chris+Douridas&limit=5",
-        "  instance https://wolf.qqdl.site failed: 401 Client Error: Unauthorized for url: https://wolf.qqdl.site/search/?s=RUFUS+DU+SOL+Tyrone+Lindqvist+%28of+Rufus+Du+Sol%29+in+conversation+with+Chris+Douridas&limit=5",
-        "  instance https://maus.qqdl.site failed: 401 Client Error: Unauthorized for url: https://maus.qqdl.site/search/?s=RUFUS+DU+SOL+Tyrone+Lindqvist+%28of+Rufus+Du+Sol%29+in+conversation+with+Chris+Douridas&limit=5",
-        "  instance https://vogel.qqdl.site failed: 401 Client Error: Unauthorized for url: https://vogel.qqdl.site/search/?s=RUFUS+DU+SOL+Tyrone+Lindqvist+%28of+Rufus+Du+Sol%29+in+conversation+with+Chris+Douridas&limit=5",
-        "  instance https://katze.qqdl.site failed: 401 Client Error: Unauthorized for url: https://katze.qqdl.site/search/?s=RUFUS+DU+SOL+Tyrone+Lindqvist+%28of+Rufus+Du+Sol%29+in+conversation+with+Chris+Douridas&limit=5"
+        "[download] 100.0% of ~ 138.84MiB at    1.93MiB/s ETA 00:01 (frag 722/722)",
+        "[download] 100.0% of ~ 138.85MiB at    1.93MiB/s ETA 00:01 (frag 722/722)",
+        "[download] 100.0% of ~ 138.86MiB at    1.97MiB/s ETA 00:00 (frag 722/722)",
+        "[download] 100.0% of ~ 138.89MiB at    1.97MiB/s ETA 00:00 (frag 722/722)",
+        "[download] 100.0% of ~ 138.96MiB at    1.97MiB/s ETA 00:00 (frag 722/722)",
+        "[download] 100.0% of ~ 139.03MiB at    1.97MiB/s ETA 00:00 (frag 722/722)",
+        "[download] 100.0% of ~ 139.03MiB at    1.97MiB/s ETA 00:00 (frag 723/722)",
+        "[download] 100% of  139.03MiB in 00:01:22 at 1.69MiB/s                   ",
+        "[FixupM4a] Correcting container of \"/home/malston/q/Music/YouTube_Music7/KCRW (Error)/2026-01-18/Shabaka - a future untold.m4a\"",
+        "[ExtractAudio] Destination: /home/malston/q/Music/YouTube_Music7/KCRW (Error)/2026-01-18/Shabaka - a future untold.mp3"
       ],
-      "next_run": "2026-03-18 14:00:00"
+      "next_run": "2026-03-19 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -903,18 +919,18 @@
         "Vocab files changed": 0
       },
       "log_tail": [
-        "Already up to date.",
-        "Running Claude to update vocabulary...",
-        "Done. Two changes were made and pushed:",
         "",
-        "1. **`vocabulary/Introduction/careers_in_cyber.txt`** \u2014 reformatted with the required `NUMBER\u2192TERM|DEFINITION|CATEGORY` format (was missing the number prefix entirely)",
+        "- `defensive_security.txt` \u2014 all 8 terms from notes are present",
+        "- `careers_in_cyber.txt` \u2014 all 11 terms (roles, metrics, analysis techniques) are present",
+        "- `networking_basics.txt` \u2014 all 13 terms (ARPANET, IP, MAC, ICMP, etc.) are present",
+        "- `lan_topologies.txt` \u2014 all 24 terms (topologies, Switch, Router, ARP, DHCP) are present",
+        "- `osi_model.txt` \u2014 all 23 terms (all 7 layers, TCP/UDP, DNS, NIC, OSPF, RIP) are present",
+        "- `packets_and_frames.txt` \u2014 all 7 terms (Packet, Frame, TTL, Checksum, etc.) are present",
         "",
-        "2. **`vocabulary/Network Fundamentals/packets_and_frames.txt`** \u2014 new file created from `notes/tryhackme/packets and frames/packets and frames.md`, covering: Packet, Frame, Encapsulation, TTL, Checksum, Source Address, Destination Address",
-        "",
-        "The other vocab files (`defensive_security.txt`, `networking_basics.txt`, `lan_topologies.txt`, `osi_model.txt`) were already complete and correctly formatted.",
+        "No missing or outdated entries were found. Nothing to commit.",
         "Done."
       ],
-      "next_run": "2026-03-18 15:00:00"
+      "next_run": "2026-03-19 15:00:00"
     }
   ]
 }
