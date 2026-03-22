@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-21 16:00:03",
+  "generated_at": "2026-03-22 16:00:05",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-03-21 12:00:07",
+      "last_run": "2026-03-22 12:00:00",
       "status": "ok",
       "progress": 95,
       "steps": [
@@ -844,18 +844,18 @@
         "Rsync errors": 0
       },
       "log_tail": [
+        "'/home/malston/workout/js/log.js' -> '/home/malston/q/workout/js/log.js'",
         "'/home/malston/workout/CONTRIBUTING.md' -> '/home/malston/q/workout/CONTRIBUTING.md'",
-        "'/home/malston/workout/scripts' -> '/home/malston/q/workout/scripts'",
         "'/home/malston/workout/scripts/scrape-fitnessprogramer.js' -> '/home/malston/q/workout/scripts/scrape-fitnessprogramer.js'",
         "'/home/malston/workout/index.html' -> '/home/malston/q/workout/index.html'",
-        "[2026-03-21 13:13:10] Copied: workout",
-        "[2026-03-21 13:13:10] SKIP (not found): Xterra",
-        "[2026-03-21 13:13:10] SKIP (not found): YouTube",
-        "[2026-03-21 13:13:10] SKIP (not found): YouTube Project",
-        "[2026-03-21 13:13:10] SKIP (not found): zArchived",
-        "[2026-03-21 13:13:10] Backup complete."
+        "[2026-03-22 12:17:11] Copied: workout",
+        "[2026-03-22 12:17:11] SKIP (not found): Xterra",
+        "[2026-03-22 12:17:11] SKIP (not found): YouTube",
+        "[2026-03-22 12:17:11] SKIP (not found): YouTube Project",
+        "[2026-03-22 12:17:11] SKIP (not found): zArchived",
+        "[2026-03-22 12:17:11] Backup complete."
       ],
-      "next_run": "2026-03-22 12:00:00"
+      "next_run": "2026-03-23 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -880,7 +880,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-03-22 13:00:00"
+      "next_run": "2026-03-23 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -892,13 +892,13 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-03-22 14:00:00"
+      "next_run": "2026-03-23 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-03-21 14:00:01",
+      "last_run": "2026-03-22 14:00:01",
       "status": "warning",
       "progress": 100,
       "steps": [
@@ -936,18 +936,18 @@
         "Scripts failed": 3
       },
       "log_tail": [
-        "2026-03-21 14:07:17,315 INFO [Shazams 2017-11] Already exists, skipping",
-        "2026-03-21 14:07:17,315 INFO [17-09] 10 tracks \u2192 1 part(s)",
-        "2026-03-21 14:07:17,315 INFO [Shazams 2017-09] Already exists, skipping",
-        "2026-03-21 14:07:17,315 INFO [17-07] 1 tracks \u2192 1 part(s)",
-        "2026-03-21 14:07:17,315 INFO [Shazams 2017-07] Already exists, skipping",
-        "2026-03-21 14:07:17,315 INFO ",
+        "2026-03-22 14:12:09,761 INFO [Shazams 2017-11] Already exists, skipping",
+        "2026-03-22 14:12:09,761 INFO [17-09] 10 tracks \u2192 1 part(s)",
+        "2026-03-22 14:12:09,761 INFO [Shazams 2017-09] Already exists, skipping",
+        "2026-03-22 14:12:09,761 INFO [17-07] 1 tracks \u2192 1 part(s)",
+        "2026-03-22 14:12:09,761 INFO [Shazams 2017-07] Already exists, skipping",
+        "2026-03-22 14:12:09,761 INFO ",
         "Done. found=0 added=0 not_found=0 errors=0",
         "\u2713 done",
         "",
-        "2026-03-21 14:07:17 \u2014 finished"
+        "2026-03-22 14:12:09 \u2014 finished"
       ],
-      "next_run": "2026-03-22 14:00:00"
+      "next_run": "2026-03-23 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -962,18 +962,18 @@
         "Vocab files changed": 0
       },
       "log_tail": [
-        "| `Introduction/careers_in_cyber.txt` | `2. careers_in_cyber.md` | Up to date (11 entries) |",
-        "| `Introduction/defensive_security.txt` | `1. defensive_security.md` | Up to date (10 entries) |",
-        "| `Introduction/kali_linux.txt` | (general knowledge) | Up to date (8 entries) |",
-        "| `Network Fundamentals/networking_basics.txt` | `1. what_is_networking(addresses).md` | Up to date (22 entries) |",
-        "| `Network Fundamentals/lan_topologies.txt` | `2. intro to lan.md` | Up to date (33 entries) |",
-        "| `Network Fundamentals/osi_model.txt` | `3. osi model.md` | Up to date (29 entries) |",
-        "| `Network Fundamentals/packets_and_frames.txt` | `packets and frames/*.md` | Up to date (22 entries) |",
         "",
-        "No missing terms were found \u2014 all concepts from the notes (including TCP/IP headers, handshake steps, OSI layers 5\u20137, DHCP/ARP steps, subnet address types, and image cards) are already captured. No commit needed.",
+        "- `careers_in_cyber.txt` \u2014 all roles and metrics covered",
+        "- `defensive_security.txt` \u2014 all malware types, SOC/SIEM/DFIR, threat intel tools covered",
+        "- `networking_basics.txt` \u2014 all addressing, ICMP/ping, MAC, ISP concepts covered",
+        "- `lan_topologies.txt` \u2014 all topology types, ARP, DHCP steps covered",
+        "- `osi_model.txt` \u2014 all 7 layers, TCP/UDP, DNS, routing protocols covered",
+        "- `packets_and_frames.txt` \u2014 all packet/frame headers, full TCP/IP model, handshake steps covered",
+        "",
+        "No missing terms found. Nothing to commit.",
         "Done."
       ],
-      "next_run": "2026-03-22 15:00:00"
+      "next_run": "2026-03-23 15:00:00"
     }
   ]
 }
