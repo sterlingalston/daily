@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-23 16:00:03",
+  "generated_at": "2026-03-24 16:00:05",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-03-23 12:00:00",
+      "last_run": "2026-03-24 12:00:00",
       "status": "ok",
       "progress": 95,
       "steps": [
@@ -622,6 +622,10 @@
           "status": "skip"
         },
         {
+          "name": "compressor",
+          "status": "pending"
+        },
+        {
           "name": "dabmusic",
           "status": "skip"
         },
@@ -848,14 +852,14 @@
         "'/home/malston/workout/CONTRIBUTING.md' -> '/home/malston/q/workout/CONTRIBUTING.md'",
         "'/home/malston/workout/scripts/scrape-fitnessprogramer.js' -> '/home/malston/q/workout/scripts/scrape-fitnessprogramer.js'",
         "'/home/malston/workout/index.html' -> '/home/malston/q/workout/index.html'",
-        "[2026-03-23 13:13:57] Copied: workout",
-        "[2026-03-23 13:13:57] SKIP (not found): Xterra",
-        "[2026-03-23 13:13:57] SKIP (not found): YouTube",
-        "[2026-03-23 13:13:57] SKIP (not found): YouTube Project",
-        "[2026-03-23 13:13:57] SKIP (not found): zArchived",
-        "[2026-03-23 13:13:57] Backup complete."
+        "[2026-03-24 12:22:01] Copied: workout",
+        "[2026-03-24 12:22:01] SKIP (not found): Xterra",
+        "[2026-03-24 12:22:01] SKIP (not found): YouTube",
+        "[2026-03-24 12:22:01] SKIP (not found): YouTube Project",
+        "[2026-03-24 12:22:01] SKIP (not found): zArchived",
+        "[2026-03-24 12:22:01] Backup complete."
       ],
-      "next_run": "2026-03-24 12:00:00"
+      "next_run": "2026-03-25 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -880,7 +884,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-03-24 13:00:00"
+      "next_run": "2026-03-25 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -892,13 +896,13 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-03-24 14:00:00"
+      "next_run": "2026-03-25 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-03-23 14:00:01",
+      "last_run": "2026-03-24 14:00:01",
       "status": "warning",
       "progress": 100,
       "steps": [
@@ -945,9 +949,9 @@
         "PermissionError: Authentication required. Pass cookies= to DabMusic().",
         "\u2717 failed (exit 1)",
         "",
-        "2026-03-23 14:12:05 \u2014 finished"
+        "2026-03-24 14:11:06 \u2014 finished"
       ],
-      "next_run": "2026-03-24 14:00:00"
+      "next_run": "2026-03-25 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -959,21 +963,21 @@
       "steps": [],
       "counts": {
         "Auto-commits": 0,
-        "Vocab files changed": 0
+        "Vocab files changed": 1
       },
       "log_tail": [
-        "=== Mon Mar 23 03:00:01 PM PDT 2026 ===",
-        "Pulling latest notes...",
-        "Already up to date.",
+        " 2 files changed, 33 insertions(+), 1 deletion(-)",
+        " create mode 100644 packets and frames/.attachments/2bda37b290faad32c0eaf66c60158d35fc42dc87.png",
         "Running Claude to update vocabulary...",
-        "One addition made and pushed:",
+        "Added 2 missing entries to `vocabulary/Network Fundamentals/packets_and_frames.txt`:",
         "",
-        "- **`vocabulary/Network Fundamentals/osi_model.txt`** \u2014 added entry 30: `UDP - ARP and DHCP` (from the OSI model notes which specifically listed ARP and DHCP as UDP use cases for small data transmissions)",
+        "- **23** \u2014 `UDP Stateless` \u2014 UDP does not send acknowledgements; no guarantee data is received",
+        "- **24** \u2014 UDP diagram image card (`.attachments/2bda37b290...`)",
         "",
-        "All other vocabulary files were already up to date with their corresponding notes.",
+        "All other terms from the notes were already represented in the vocabulary files.",
         "Done."
       ],
-      "next_run": "2026-03-24 15:00:00"
+      "next_run": "2026-03-25 15:00:00"
     }
   ]
 }
