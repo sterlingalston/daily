@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-26 16:00:06",
+  "generated_at": "2026-03-27 16:00:05",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-03-26 12:00:00",
+      "last_run": "2026-03-27 12:00:00",
       "status": "ok",
       "progress": 95,
       "steps": [
@@ -574,10 +574,6 @@
           "status": "skip"
         },
         {
-          "name": "audibooks",
-          "status": "skip"
-        },
-        {
           "name": "audiobooks",
           "status": "skip"
         },
@@ -844,7 +840,7 @@
       ],
       "counts": {
         "Folders synced": 0,
-        "Folders skipped": 198,
+        "Folders skipped": 197,
         "Rsync errors": 0
       },
       "log_tail": [
@@ -852,14 +848,14 @@
         "'/home/malston/workout/CONTRIBUTING.md' -> '/home/malston/q/workout/CONTRIBUTING.md'",
         "'/home/malston/workout/scripts/scrape-fitnessprogramer.js' -> '/home/malston/q/workout/scripts/scrape-fitnessprogramer.js'",
         "'/home/malston/workout/index.html' -> '/home/malston/q/workout/index.html'",
-        "[2026-03-26 12:18:02] Copied: workout",
-        "[2026-03-26 12:18:02] SKIP (not found): Xterra",
-        "[2026-03-26 12:18:02] SKIP (not found): YouTube",
-        "[2026-03-26 12:18:02] SKIP (not found): YouTube Project",
-        "[2026-03-26 12:18:02] SKIP (not found): zArchived",
-        "[2026-03-26 12:18:02] Backup complete."
+        "[2026-03-27 12:10:07] Copied: workout",
+        "[2026-03-27 12:10:07] SKIP (not found): Xterra",
+        "[2026-03-27 12:10:07] SKIP (not found): YouTube",
+        "[2026-03-27 12:10:07] SKIP (not found): YouTube Project",
+        "[2026-03-27 12:10:07] SKIP (not found): zArchived",
+        "[2026-03-27 12:10:07] Backup complete."
       ],
-      "next_run": "2026-03-27 12:00:00"
+      "next_run": "2026-03-28 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -884,7 +880,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-03-27 13:00:00"
+      "next_run": "2026-03-28 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -896,13 +892,13 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-03-27 14:00:00"
+      "next_run": "2026-03-28 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-03-26 14:00:01",
+      "last_run": "2026-03-27 14:00:01",
       "status": "warning",
       "progress": 100,
       "steps": [
@@ -940,18 +936,18 @@
         "Scripts failed": 4
       },
       "log_tail": [
-        "    data = dab.get_libraries()",
-        "  File \"/home/malston/mcloud_playlists/dabmusic/client.py\", line 169, in get_libraries",
-        "    return self._get(\"libraries\")",
         "           ~~~~~~~~~^^^^^^^^^^^^^",
-        "  File \"/home/malston/mcloud_playlists/dabmusic/client.py\", line 34, in _get",
-        "    raise PermissionError(\"Authentication required. Pass cookies= to DabMusic().\")",
-        "PermissionError: Authentication required. Pass cookies= to DabMusic().",
+        "  File \"/home/malston/mcloud_playlists/dabmusic/client.py\", line 36, in _get",
+        "    return resp.json()",
+        "           ~~~~~~~~~^^",
+        "  File \"/home/malston/miniconda3/lib/python3.13/site-packages/requests/models.py\", line 980, in json",
+        "    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)",
+        "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
         "\u2717 failed (exit 1)",
         "",
-        "2026-03-26 14:09:06 \u2014 finished"
+        "2026-03-27 14:08:58 \u2014 finished"
       ],
-      "next_run": "2026-03-27 14:00:00"
+      "next_run": "2026-03-28 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -966,16 +962,18 @@
         "Vocab files changed": 0
       },
       "log_tail": [
-        "=== Thu Mar 26 03:00:01 PM PDT 2026 ===",
-        "Pulling latest notes...",
         "Already up to date.",
         "Running Claude to update vocabulary...",
-        "No changes to vocabulary files \u2014 everything is already up to date. The only modifications are to the `notes/tryhackme` submodule (new commits in the notes repo) and an untracked `scripts/` directory, neither of which are vocabulary changes.",
+        "Done. The only missing content was 3 image cards in `vocabulary/Network Fundamentals/networking_basics.txt` for diagrams present in the networking notes but not yet in the vocab:",
         "",
-        "No commit needed.",
+        "- Entry 23: \"What is a network?\" intro diagram",
+        "- Entry 24: \"Bob/Jim/Zayn/Toby\" networking problem diagram  ",
+        "- Entry 25: Internet structure (ARPANET era) diagram",
+        "",
+        "All other vocab files (`defensive_security.txt`, `careers_in_cyber.txt`, `lan_topologies.txt`, `osi_model.txt`, `packets_and_frames.txt`) were already up to date with their corresponding notes.",
         "Done."
       ],
-      "next_run": "2026-03-27 15:00:00"
+      "next_run": "2026-03-28 15:00:00"
     }
   ]
 }
