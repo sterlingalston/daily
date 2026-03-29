@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-28 16:00:06",
+  "generated_at": "2026-03-29 16:00:06",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-03-28 12:00:00",
+      "last_run": "2026-03-29 12:00:00",
       "status": "ok",
       "progress": 95,
       "steps": [
@@ -848,14 +848,14 @@
         "'/home/malston/workout/CONTRIBUTING.md' -> '/home/malston/q/workout/CONTRIBUTING.md'",
         "'/home/malston/workout/scripts/scrape-fitnessprogramer.js' -> '/home/malston/q/workout/scripts/scrape-fitnessprogramer.js'",
         "'/home/malston/workout/index.html' -> '/home/malston/q/workout/index.html'",
-        "[2026-03-28 12:10:54] Copied: workout",
-        "[2026-03-28 12:10:54] SKIP (not found): Xterra",
-        "[2026-03-28 12:10:54] SKIP (not found): YouTube",
-        "[2026-03-28 12:10:54] SKIP (not found): YouTube Project",
-        "[2026-03-28 12:10:54] SKIP (not found): zArchived",
-        "[2026-03-28 12:10:54] Backup complete."
+        "[2026-03-29 12:16:36] Copied: workout",
+        "[2026-03-29 12:16:36] SKIP (not found): Xterra",
+        "[2026-03-29 12:16:36] SKIP (not found): YouTube",
+        "[2026-03-29 12:16:36] SKIP (not found): YouTube Project",
+        "[2026-03-29 12:16:36] SKIP (not found): zArchived",
+        "[2026-03-29 12:16:36] Backup complete."
       ],
-      "next_run": "2026-03-29 12:00:00"
+      "next_run": "2026-03-30 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -880,7 +880,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-03-29 13:00:00"
+      "next_run": "2026-03-30 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -892,13 +892,13 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-03-29 14:00:00"
+      "next_run": "2026-03-30 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-03-28 14:00:01",
+      "last_run": "2026-03-29 14:00:01",
       "status": "warning",
       "progress": 100,
       "steps": [
@@ -945,9 +945,9 @@
         "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
         "\u2717 failed (exit 1)",
         "",
-        "2026-03-28 14:11:56 \u2014 finished"
+        "2026-03-29 14:10:06 \u2014 finished"
       ],
-      "next_run": "2026-03-29 14:00:00"
+      "next_run": "2026-03-30 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -965,15 +965,15 @@
         "Pulling latest notes...",
         "Already up to date.",
         "Running Claude to update vocabulary...",
-        "Done. Changes pushed:",
+        "All vocabulary files are up to date. Here's what happened:",
         "",
-        "- **`vocabulary/Network Fundamentals/networking_basics.txt`** \u2014 added 3 image cards (items 26\u201328) for IP addressing table, IPv6 format, and second ping output (remote already had these with better descriptions; kept those).",
-        "- **`vocabulary/Packets and Frames/tcp_ip.txt`** \u2014 added items 25\u201327: `UDP Source Address`, `UDP Destination Address`, and `UDP Data` header fields to match the UDP headers table in the TCP-IP.md notes.",
-        "",
-        "All other vocab files were already up to date with their corresponding notes.",
+        "- Compared all notes in `notes/tryhackme/` against all vocab `.txt` files",
+        "- Every term from the notes is already covered \u2014 no missing definitions were found",
+        "- The only pending change was `vocabulary/Packets and Frames/packets_and_frames.txt` being untracked locally, but the remote already had a more complete version of it (with `Packet Header - Time to Live` style term names vs the shorter `TTL` format)",
+        "- Resolved the conflict by keeping the remote's version, which is now synced",
         "Done."
       ],
-      "next_run": "2026-03-29 15:00:00"
+      "next_run": "2026-03-30 15:00:00"
     }
   ]
 }
