@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-02 16:00:06",
+  "generated_at": "2026-04-03 16:00:06",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-04-02 12:00:00",
+      "last_run": "2026-04-03 12:00:00",
       "status": "ok",
       "progress": 94,
       "steps": [
@@ -852,14 +852,14 @@
         "'/home/malston/workout/CONTRIBUTING.md' -> '/home/malston/q/workout/CONTRIBUTING.md'",
         "'/home/malston/workout/scripts/scrape-fitnessprogramer.js' -> '/home/malston/q/workout/scripts/scrape-fitnessprogramer.js'",
         "'/home/malston/workout/index.html' -> '/home/malston/q/workout/index.html'",
-        "[2026-04-02 13:11:42] Copied: workout",
-        "[2026-04-02 13:11:42] SKIP (not found): Xterra",
-        "[2026-04-02 13:11:42] SKIP (not found): YouTube",
-        "[2026-04-02 13:11:42] SKIP (not found): YouTube Project",
-        "[2026-04-02 13:11:42] SKIP (not found): zArchived",
-        "[2026-04-02 13:11:42] Backup complete."
+        "[2026-04-03 12:17:55] Copied: workout",
+        "[2026-04-03 12:17:55] SKIP (not found): Xterra",
+        "[2026-04-03 12:17:55] SKIP (not found): YouTube",
+        "[2026-04-03 12:17:55] SKIP (not found): YouTube Project",
+        "[2026-04-03 12:17:55] SKIP (not found): zArchived",
+        "[2026-04-03 12:17:55] Backup complete."
       ],
-      "next_run": "2026-04-03 12:00:00"
+      "next_run": "2026-04-04 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -884,7 +884,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-04-03 13:00:00"
+      "next_run": "2026-04-04 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -896,13 +896,13 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-04-03 14:00:00"
+      "next_run": "2026-04-04 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-04-02 14:00:01",
+      "last_run": "2026-04-03 14:00:01",
       "status": "warning",
       "progress": 100,
       "steps": [
@@ -916,7 +916,7 @@
         },
         {
           "name": "kcrw_monochrome_import.py",
-          "status": "error"
+          "status": "ok"
         },
         {
           "name": "local_kcrw_import.py",
@@ -936,8 +936,8 @@
         }
       ],
       "counts": {
-        "Scripts OK": 3,
-        "Scripts failed": 4
+        "Scripts OK": 4,
+        "Scripts failed": 3
       },
       "log_tail": [
         "    data = dab.get_libraries()",
@@ -949,9 +949,9 @@
         "PermissionError: Authentication required. Pass cookies= to DabMusic().",
         "\u2717 failed (exit 1)",
         "",
-        "2026-04-02 14:09:54 \u2014 finished"
+        "2026-04-03 14:08:02 \u2014 finished"
       ],
-      "next_run": "2026-04-03 14:00:00"
+      "next_run": "2026-04-04 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -966,14 +966,18 @@
         "Vocab files changed": 0
       },
       "log_tail": [
-        "=== Thu Apr  2 03:00:01 PM PDT 2026 ===",
-        "Pulling latest notes...",
-        "Already up to date.",
-        "Running Claude to update vocabulary...",
-        "Done. The only missing content was three \"reasons to pursue cybersecurity\" cards from `careers_in_cyber.md` (High Pay, Exciting, High Demand) \u2014 added as entries 12\u201314 in `vocabulary/Introduction/careers_in_cyber.txt`. All other notes content was already reflected in the vocabulary files.",
+        "- `defensive_security.md` \u2192 `vocabulary/Introduction/defensive_security.txt` \u2014 complete (Virus, Trojan, Ransomware, SOC, SIEM, DFIR, AbuseIPDB, Cisco Talos + image cards)",
+        "- `careers_in_cyber.md` \u2192 `vocabulary/Introduction/careers_in_cyber.txt` \u2014 complete (all career roles, MTTD/MTTA/MTTR, analysis techniques)",
+        "- `networking fundamentals/1.` \u2192 `vocabulary/Network Fundamentals/networking_basics.txt` \u2014 complete (ARPANET, IP/MAC addressing, ICMP, Ping, IPv4/IPv6 + image cards)",
+        "- `networking fundamentals/2.` \u2192 `vocabulary/Network Fundamentals/lan_topologies.txt` \u2014 complete (all topologies, Switch/Hub/Router, Subnetting, ARP, DHCP + image cards)",
+        "- `networking fundamentals/3.` \u2192 `vocabulary/Network Fundamentals/osi_model.txt` \u2014 complete (all 7 layers, mnemonic, TCP/UDP, OSPF/RIP, DNS + image cards)",
+        "- `packets and frames/packets and frames.md` \u2192 `vocabulary/Packets and Frames/packets_and_frames.txt` \u2014 complete (Packet, Frame, Encapsulation, all 4 IP headers)",
+        "- `packets and frames/TCP-IP.md` \u2192 `vocabulary/Packets and Frames/tcp_ip.txt` \u2014 complete (TCP/IP model, 3-way handshake, all TCP/UDP headers, SYN/ACK/FIN/RST/ISN)",
+        "",
+        "No changes needed \u2014 skipping commit.",
         "Done."
       ],
-      "next_run": "2026-04-03 15:00:00"
+      "next_run": "2026-04-04 15:00:00"
     }
   ]
 }
