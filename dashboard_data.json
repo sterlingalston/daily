@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-05 16:00:05",
+  "generated_at": "2026-04-06 16:00:04",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-04-05 12:00:00",
+      "last_run": "2026-04-06 12:00:00",
       "status": "ok",
-      "progress": 93,
+      "progress": 96,
       "steps": [
         {
           "name": ".NVDCache",
@@ -754,26 +754,6 @@
           "status": "skip"
         },
         {
-          "name": "pickup",
-          "status": "skip"
-        },
-        {
-          "name": "pickup_dl",
-          "status": "pending"
-        },
-        {
-          "name": "pickup_music",
-          "status": "pending"
-        },
-        {
-          "name": "pickup_site",
-          "status": "pending"
-        },
-        {
-          "name": "pickupmusic",
-          "status": "skip"
-        },
-        {
           "name": "plex_download",
           "status": "skip"
         },
@@ -856,7 +836,7 @@
       ],
       "counts": {
         "Folders synced": 0,
-        "Folders skipped": 197,
+        "Folders skipped": 199,
         "Rsync errors": 0
       },
       "log_tail": [
@@ -864,14 +844,14 @@
         "'/home/malston/workout/CONTRIBUTING.md' -> '/home/malston/q/workout/CONTRIBUTING.md'",
         "'/home/malston/workout/scripts/scrape-fitnessprogramer.js' -> '/home/malston/q/workout/scripts/scrape-fitnessprogramer.js'",
         "'/home/malston/workout/index.html' -> '/home/malston/q/workout/index.html'",
-        "[2026-04-05 13:46:44] Copied: workout",
-        "[2026-04-05 13:46:44] SKIP (not found): Xterra",
-        "[2026-04-05 13:46:44] SKIP (not found): YouTube",
-        "[2026-04-05 13:46:44] SKIP (not found): YouTube Project",
-        "[2026-04-05 13:46:44] SKIP (not found): zArchived",
-        "[2026-04-05 13:46:44] Backup complete."
+        "[2026-04-06 15:23:00] Copied: workout",
+        "[2026-04-06 15:23:00] SKIP (not found): Xterra",
+        "[2026-04-06 15:23:00] SKIP (not found): YouTube",
+        "[2026-04-06 15:23:00] SKIP (not found): YouTube Project",
+        "[2026-04-06 15:23:00] SKIP (not found): zArchived",
+        "[2026-04-06 15:23:00] Backup complete."
       ],
-      "next_run": "2026-04-06 12:00:00"
+      "next_run": "2026-04-07 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -896,7 +876,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-04-06 13:00:00"
+      "next_run": "2026-04-07 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -908,19 +888,19 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-04-06 14:00:00"
+      "next_run": "2026-04-07 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-04-05 14:00:01",
+      "last_run": "2026-04-06 14:00:19",
       "status": "warning",
       "progress": 100,
       "steps": [
         {
           "name": "import_kcrw.py",
-          "status": "ok"
+          "status": "error"
         },
         {
           "name": "kcrw_dedup.py",
@@ -948,8 +928,8 @@
         }
       ],
       "counts": {
-        "Scripts OK": 3,
-        "Scripts failed": 4
+        "Scripts OK": 2,
+        "Scripts failed": 5
       },
       "log_tail": [
         "    data = dab.get_libraries()",
@@ -961,9 +941,9 @@
         "PermissionError: Authentication required. Pass cookies= to DabMusic().",
         "\u2717 failed (exit 1)",
         "",
-        "2026-04-05 14:07:59 \u2014 finished"
+        "2026-04-06 15:04:46 \u2014 finished"
       ],
-      "next_run": "2026-04-06 14:00:00"
+      "next_run": "2026-04-07 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -978,18 +958,18 @@
         "Vocab files changed": 0
       },
       "log_tail": [
-        "=== Sun Apr  5 03:00:01 PM PDT 2026 ===",
-        "Pulling latest notes...",
-        "Already up to date.",
-        "Running Claude to update vocabulary...",
-        "Done. All notes were already well-covered in the vocab files. The only missing entry was added to `vocabulary/Network Fundamentals/osi_model.txt`:",
+        "| `1. defensive_security.md` | `Introduction/defensive_security.txt` | \u2713 Complete |",
+        "| `2. careers_in_cyber.md` | `Introduction/careers_in_cyber.txt` | \u2713 Complete |",
+        "| `networking fundamentals/1. what_is_networking(addresses).md` | `Network Fundamentals/networking_basics.txt` | \u2713 Complete |",
+        "| `networking fundamentals/2. intro to lan.md` | `Network Fundamentals/lan_topologies.txt` | \u2713 Complete |",
+        "| `networking fundamentals/3. osi model.md` | `Network Fundamentals/osi_model.txt` | \u2713 Complete |",
+        "| `packets and frames/packets and frames.md` | `Packets and Frames/packets_and_frames.txt` | \u2713 Complete |",
+        "| `packets and frames/TCP-IP.md` | `Packets and Frames/tcp_ip.txt` | \u2713 Complete |",
         "",
-        "- **31\u2192Layer 3 Routing Criteria** \u2014 the three factors for optimal routing path (shortest/fewest hops, most reliable/no prior packet loss, fastest physical connection/fibre > copper)",
-        "",
-        "Changes committed and pushed.",
+        "All terms from the notes are already captured in the vocabulary files \u2014 no missing terms, no outdated definitions. No changes to commit.",
         "Done."
       ],
-      "next_run": "2026-04-06 15:00:00"
+      "next_run": "2026-04-07 15:00:00"
     }
   ]
 }
