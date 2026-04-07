@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-06 16:00:04",
+  "generated_at": "2026-04-07 16:00:05",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-04-06 12:00:00",
+      "last_run": "2026-04-07 12:00:00",
       "status": "ok",
-      "progress": 96,
+      "progress": 94,
       "steps": [
         {
           "name": ".NVDCache",
@@ -836,7 +836,7 @@
       ],
       "counts": {
         "Folders synced": 0,
-        "Folders skipped": 199,
+        "Folders skipped": 195,
         "Rsync errors": 0
       },
       "log_tail": [
@@ -844,14 +844,14 @@
         "'/home/malston/workout/CONTRIBUTING.md' -> '/home/malston/q/workout/CONTRIBUTING.md'",
         "'/home/malston/workout/scripts/scrape-fitnessprogramer.js' -> '/home/malston/q/workout/scripts/scrape-fitnessprogramer.js'",
         "'/home/malston/workout/index.html' -> '/home/malston/q/workout/index.html'",
-        "[2026-04-06 15:23:00] Copied: workout",
-        "[2026-04-06 15:23:00] SKIP (not found): Xterra",
-        "[2026-04-06 15:23:00] SKIP (not found): YouTube",
-        "[2026-04-06 15:23:00] SKIP (not found): YouTube Project",
-        "[2026-04-06 15:23:00] SKIP (not found): zArchived",
-        "[2026-04-06 15:23:00] Backup complete."
+        "[2026-04-07 12:27:03] Copied: workout",
+        "[2026-04-07 12:27:03] SKIP (not found): Xterra",
+        "[2026-04-07 12:27:03] SKIP (not found): YouTube",
+        "[2026-04-07 12:27:03] SKIP (not found): YouTube Project",
+        "[2026-04-07 12:27:03] SKIP (not found): zArchived",
+        "[2026-04-07 12:27:03] Backup complete."
       ],
-      "next_run": "2026-04-07 12:00:00"
+      "next_run": "2026-04-08 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -876,7 +876,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-04-07 13:00:00"
+      "next_run": "2026-04-08 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -888,19 +888,19 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-04-07 14:00:00"
+      "next_run": "2026-04-08 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-04-06 14:00:19",
+      "last_run": "2026-04-07 14:00:01",
       "status": "warning",
       "progress": 100,
       "steps": [
         {
           "name": "import_kcrw.py",
-          "status": "error"
+          "status": "ok"
         },
         {
           "name": "kcrw_dedup.py",
@@ -928,22 +928,22 @@
         }
       ],
       "counts": {
-        "Scripts OK": 2,
-        "Scripts failed": 5
+        "Scripts OK": 3,
+        "Scripts failed": 4
       },
       "log_tail": [
-        "    data = dab.get_libraries()",
-        "  File \"/home/malston/mcloud_playlists/dabmusic/client.py\", line 169, in get_libraries",
-        "    return self._get(\"libraries\")",
         "           ~~~~~~~~~^^^^^^^^^^^^^",
-        "  File \"/home/malston/mcloud_playlists/dabmusic/client.py\", line 34, in _get",
-        "    raise PermissionError(\"Authentication required. Pass cookies= to DabMusic().\")",
-        "PermissionError: Authentication required. Pass cookies= to DabMusic().",
+        "  File \"/home/malston/mcloud_playlists/dabmusic/client.py\", line 36, in _get",
+        "    return resp.json()",
+        "           ~~~~~~~~~^^",
+        "  File \"/home/malston/miniconda3/lib/python3.13/site-packages/requests/models.py\", line 980, in json",
+        "    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)",
+        "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
         "\u2717 failed (exit 1)",
         "",
-        "2026-04-06 15:04:46 \u2014 finished"
+        "2026-04-07 14:06:40 \u2014 finished"
       ],
-      "next_run": "2026-04-07 14:00:00"
+      "next_run": "2026-04-08 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -958,18 +958,14 @@
         "Vocab files changed": 0
       },
       "log_tail": [
-        "| `1. defensive_security.md` | `Introduction/defensive_security.txt` | \u2713 Complete |",
-        "| `2. careers_in_cyber.md` | `Introduction/careers_in_cyber.txt` | \u2713 Complete |",
-        "| `networking fundamentals/1. what_is_networking(addresses).md` | `Network Fundamentals/networking_basics.txt` | \u2713 Complete |",
-        "| `networking fundamentals/2. intro to lan.md` | `Network Fundamentals/lan_topologies.txt` | \u2713 Complete |",
-        "| `networking fundamentals/3. osi model.md` | `Network Fundamentals/osi_model.txt` | \u2713 Complete |",
-        "| `packets and frames/packets and frames.md` | `Packets and Frames/packets_and_frames.txt` | \u2713 Complete |",
-        "| `packets and frames/TCP-IP.md` | `Packets and Frames/tcp_ip.txt` | \u2713 Complete |",
-        "",
-        "All terms from the notes are already captured in the vocabulary files \u2014 no missing terms, no outdated definitions. No changes to commit.",
+        "=== Tue Apr  7 03:00:01 PM PDT 2026 ===",
+        "Pulling latest notes...",
+        "Already up to date.",
+        "Running Claude to update vocabulary...",
+        "All vocabulary files are already up to date \u2014 no changes were needed. All terms from the 7 note files reviewed are accurately captured across the 9 vocabulary files in `vocabulary/Introduction/`, `vocabulary/Network Fundamentals/`, and `vocabulary/Packets and Frames/`.",
         "Done."
       ],
-      "next_run": "2026-04-07 15:00:00"
+      "next_run": "2026-04-08 15:00:00"
     }
   ]
 }
