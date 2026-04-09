@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-08 16:00:04",
+  "generated_at": "2026-04-09 16:00:03",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-04-08 12:00:00",
+      "last_run": "2026-04-09 12:00:00",
       "status": "ok",
       "progress": 94,
       "steps": [
@@ -844,14 +844,14 @@
         "'/home/malston/workout/CONTRIBUTING.md' -> '/home/malston/q/workout/CONTRIBUTING.md'",
         "'/home/malston/workout/scripts/scrape-fitnessprogramer.js' -> '/home/malston/q/workout/scripts/scrape-fitnessprogramer.js'",
         "'/home/malston/workout/index.html' -> '/home/malston/q/workout/index.html'",
-        "[2026-04-08 12:24:06] Copied: workout",
-        "[2026-04-08 12:24:06] SKIP (not found): Xterra",
-        "[2026-04-08 12:24:06] SKIP (not found): YouTube",
-        "[2026-04-08 12:24:06] SKIP (not found): YouTube Project",
-        "[2026-04-08 12:24:06] SKIP (not found): zArchived",
-        "[2026-04-08 12:24:06] Backup complete."
+        "[2026-04-09 13:19:55] Copied: workout",
+        "[2026-04-09 13:19:55] SKIP (not found): Xterra",
+        "[2026-04-09 13:19:55] SKIP (not found): YouTube",
+        "[2026-04-09 13:19:55] SKIP (not found): YouTube Project",
+        "[2026-04-09 13:19:55] SKIP (not found): zArchived",
+        "[2026-04-09 13:19:55] Backup complete."
       ],
-      "next_run": "2026-04-09 12:00:00"
+      "next_run": "2026-04-10 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -876,7 +876,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-04-09 13:00:00"
+      "next_run": "2026-04-10 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -888,13 +888,13 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-04-09 14:00:00"
+      "next_run": "2026-04-10 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-04-08 14:00:01",
+      "last_run": "2026-04-09 14:00:01",
       "status": "warning",
       "progress": 100,
       "steps": [
@@ -932,18 +932,18 @@
         "Scripts failed": 4
       },
       "log_tail": [
-        "    data = dab.get_libraries()",
-        "  File \"/home/malston/mcloud_playlists/dabmusic/client.py\", line 169, in get_libraries",
-        "    return self._get(\"libraries\")",
         "           ~~~~~~~~~^^^^^^^^^^^^^",
-        "  File \"/home/malston/mcloud_playlists/dabmusic/client.py\", line 34, in _get",
-        "    raise PermissionError(\"Authentication required. Pass cookies= to DabMusic().\")",
-        "PermissionError: Authentication required. Pass cookies= to DabMusic().",
+        "  File \"/home/malston/mcloud_playlists/dabmusic/client.py\", line 36, in _get",
+        "    return resp.json()",
+        "           ~~~~~~~~~^^",
+        "  File \"/home/malston/miniconda3/lib/python3.13/site-packages/requests/models.py\", line 980, in json",
+        "    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)",
+        "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
         "\u2717 failed (exit 1)",
         "",
-        "2026-04-08 14:12:46 \u2014 finished"
+        "2026-04-09 14:12:49 \u2014 finished"
       ],
-      "next_run": "2026-04-09 14:00:00"
+      "next_run": "2026-04-10 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -955,21 +955,21 @@
       "steps": [],
       "counts": {
         "Auto-commits": 0,
-        "Vocab files changed": 1
+        "Vocab files changed": 0
       },
       "log_tail": [
+        "- **Introduction/careers_in_cyber.txt** \u2014 all roles (Security Engineer, Incident Responder, Digital Forensics Examiner, Malware Analyst, Penetration Tester, Red Teamer) and metrics (MTTD/MTTA/MTTR) already present",
+        "- **Network Fundamentals/networking_basics.txt** \u2014 all addressing, ICMP/ping, MAC, IP concepts with 29 image cards",
+        "- **Network Fundamentals/lan_topologies.txt** \u2014 all topology types, ARP, DHCP with 34 entries",
+        "- **Network Fundamentals/osi_model.txt** \u2014 all 7 layers, TCP/UDP, routing protocols with 32 entries",
+        "- **Packets and Frames/packets_and_frames.txt** \u2014 packet/frame headers covered",
+        "- **Packets and Frames/tcp_ip.txt** \u2014 TCP/IP model, handshake, UDP, ports (FTP/SSH/HTTP/HTTPS/SMB/RDP) all present",
+        "- **Extending Your Network/extending_your_network.txt** \u2014 port forwarding, stateful/stateless firewalls covered",
         "",
-        "**`vocabulary/Packets and Frames/tcp_ip.txt`** \u2014 Added 7 new entries (31\u201337) from the \"Ports 101\" section of the TCP-IP notes:",
-        "- Port (general concept)",
-        "- FTP (port 21), SSH (port 22), HTTP (port 80), HTTPS (port 443), SMB (port 445), RDP (port 3389)",
-        "",
-        "**New: `vocabulary/Extending Your Network/extending_your_network.txt`** \u2014 7 entries covering content from `3 - extending your network/extending your network.md`:",
-        "- Port Forwarding + 2 diagram image cards",
-        "- Firewall (general concept)",
-        "- Stateful Firewall + Stateless Firewall + 1 diagram image card",
+        "No changes needed \u2014 nothing to commit.",
         "Done."
       ],
-      "next_run": "2026-04-09 15:00:00"
+      "next_run": "2026-04-10 15:00:00"
     }
   ]
 }
