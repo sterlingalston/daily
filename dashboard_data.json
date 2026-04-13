@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-12 16:00:04",
+  "generated_at": "2026-04-13 16:00:04",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-04-12 14:39:58",
-      "status": "running",
+      "last_run": "2026-04-13 15:44:37",
+      "status": "ok",
       "progress": 0,
       "steps": [
         {
@@ -20,10 +20,11 @@
         "Rsync errors": 0
       },
       "log_tail": [
-        "[2026-04-12 14:39:58] Starting backup to /home/malston/q",
-        "[2026-04-12 14:39:58] No folders found in /home/malston/q"
+        "[2026-04-13 15:44:37] Starting backup to /home/malston/q",
+        "[2026-04-13 15:44:37] Copied: Music",
+        "[2026-04-13 15:44:37] Backup complete."
       ],
-      "next_run": "2026-04-13 12:00:00"
+      "next_run": "2026-04-14 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -48,7 +49,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-04-13 13:00:00"
+      "next_run": "2026-04-14 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -60,7 +61,7 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-04-13 14:00:00"
+      "next_run": "2026-04-14 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
@@ -100,18 +101,18 @@
         "Scripts failed": 4
       },
       "log_tail": [
-        "[download]  51.3% of ~ 135.17MiB at  361.38KiB/s ETA 03:21 (frag 361/702)",
-        "[download]  51.4% of ~ 134.80MiB at  354.34KiB/s ETA 03:21 (frag 361/702)",
-        "[download]  51.4% of ~ 134.80MiB at  354.34KiB/s ETA 03:21 (frag 361/702)",
-        "[download]  51.4% of ~ 134.81MiB at  354.34KiB/s ETA 03:21 (frag 361/702)",
-        "[download]  51.4% of ~ 134.81MiB at  354.34KiB/s ETA 03:21 (frag 361/702)",
-        "[download]  51.4% of ~ 134.83MiB at  354.34KiB/s ETA 03:21 (frag 361/702)",
-        "[download]  51.4% of ~ 134.86MiB at  354.34KiB/s ETA 03:21 (frag 361/702)",
-        "[download]  51.5% of ~ 134.92MiB at  359.89KiB/s ETA 03:18 (frag 361/702)",
-        "[download]  51.5% of ~ 135.04MiB at      0.00B/s ETA Unknown (frag 361/702)",
-        "[download]  51.4% of ~ 135.17MiB at      0.00B/s ETA Unknown (frag 362/702)"
+        "[download]  28.0% of ~  67.90MiB at  266.32KiB/s ETA 03:03 (frag 99/355)",
+        "[download]  28.0% of ~  68.12MiB at  278.09KiB/s ETA 03:01 (frag 99/355)",
+        "[download]  27.9% of ~  68.36MiB at  278.09KiB/s ETA 03:01 (frag 100/355)",
+        "[download]  28.2% of ~  67.68MiB at  276.56KiB/s ETA 03:01 (frag 100/355)",
+        "[download]  28.2% of ~  67.69MiB at  276.56KiB/s ETA 03:01 (frag 100/355)",
+        "[download]  28.2% of ~  67.70MiB at  276.56KiB/s ETA 03:01 (frag 100/355)",
+        "[download]  28.2% of ~  67.71MiB at  276.56KiB/s ETA 03:01 (frag 100/355)",
+        "[download]  28.2% of ~  67.74MiB at  277.96KiB/s ETA 03:01 (frag 100/355)",
+        "[download]  28.2% of ~  67.79MiB at  277.96KiB/s ETA 03:01 (frag 100/355)",
+        "[download]  28.3% of ~  67.90MiB at  277.96KiB/s ETA 03:01 (frag 100/355)"
       ],
-      "next_run": "2026-04-13 14:00:00"
+      "next_run": "2026-04-14 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -137,7 +138,7 @@
         "No changes needed \u2014 vocabulary files are fully up to date with the notes. Nothing to commit.",
         "Done."
       ],
-      "next_run": "2026-04-13 15:00:00"
+      "next_run": "2026-04-14 15:00:00"
     }
   ]
 }
