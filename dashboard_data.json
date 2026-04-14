@@ -1,30 +1,857 @@
 {
-  "generated_at": "2026-04-13 16:00:04",
+  "generated_at": "2026-04-14 16:00:09",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-04-13 15:44:37",
+      "last_run": "2026-04-14 12:00:00",
       "status": "ok",
-      "progress": 0,
+      "progress": 94,
       "steps": [
+        {
+          "name": ".NVDCache",
+          "status": "skip"
+        },
+        {
+          "name": ".Trash-1000",
+          "status": "skip"
+        },
+        {
+          "name": "AWS Certification",
+          "status": "skip"
+        },
+        {
+          "name": "Andgar",
+          "status": "skip"
+        },
+        {
+          "name": "Asurion",
+          "status": "skip"
+        },
+        {
+          "name": "Bellingham",
+          "status": "skip"
+        },
+        {
+          "name": "Bookmarks",
+          "status": "skip"
+        },
+        {
+          "name": "Books",
+          "status": "skip"
+        },
+        {
+          "name": "Bozman",
+          "status": "skip"
+        },
+        {
+          "name": "Brighthouse",
+          "status": "skip"
+        },
+        {
+          "name": "Brother",
+          "status": "skip"
+        },
+        {
+          "name": "C# Treehouse",
+          "status": "skip"
+        },
+        {
+          "name": "CEH",
+          "status": "skip"
+        },
+        {
+          "name": "CPMC",
+          "status": "skip"
+        },
+        {
+          "name": "Care Credit",
+          "status": "skip"
+        },
+        {
+          "name": "Charisma",
+          "status": "skip"
+        },
+        {
+          "name": "Clearance Records",
+          "status": "skip"
+        },
+        {
+          "name": "Codeacademy",
+          "status": "skip"
+        },
+        {
+          "name": "Colab Notebooks",
+          "status": "skip"
+        },
+        {
+          "name": "Colonial Parking",
+          "status": "skip"
+        },
+        {
+          "name": "Comedy",
+          "status": "skip"
+        },
+        {
+          "name": "CompTIA Linux+",
+          "status": "skip"
+        },
+        {
+          "name": "CompTIA Security+",
+          "status": "skip"
+        },
+        {
+          "name": "Coursera Data Science IBM",
+          "status": "skip"
+        },
+        {
+          "name": "Cyber Security",
+          "status": "skip"
+        },
+        {
+          "name": "DJ",
+          "status": "skip"
+        },
+        {
+          "name": "Data Engineering",
+          "status": "skip"
+        },
+        {
+          "name": "Data Science",
+          "status": "skip"
+        },
+        {
+          "name": "DataTalksClub",
+          "status": "skip"
+        },
+        {
+          "name": "Decoverly Place",
+          "status": "skip"
+        },
+        {
+          "name": "DoNotPay",
+          "status": "skip"
+        },
+        {
+          "name": "Election 2024",
+          "status": "skip"
+        },
+        {
+          "name": "Eliza",
+          "status": "skip"
+        },
+        {
+          "name": "Eliza_rental",
+          "status": "skip"
+        },
+        {
+          "name": "Evernote backups",
+          "status": "skip"
+        },
+        {
+          "name": "FBReader\u00ae book network",
+          "status": "skip"
+        },
+        {
+          "name": "Finn",
+          "status": "skip"
+        },
+        {
+          "name": "Fitness",
+          "status": "skip"
+        },
+        {
+          "name": "GC Crates",
+          "status": "skip"
+        },
+        {
+          "name": "GSA",
+          "status": "skip"
+        },
+        {
+          "name": "Golang",
+          "status": "skip"
+        },
+        {
+          "name": "Google AI Studio",
+          "status": "skip"
+        },
+        {
+          "name": "GoogleScripts",
+          "status": "skip"
+        },
+        {
+          "name": "Grandma Hazel",
+          "status": "skip"
+        },
+        {
+          "name": "Groupon",
+          "status": "skip"
+        },
+        {
+          "name": "Guitar",
+          "status": "skip"
+        },
+        {
+          "name": "Guitar Recordings",
+          "status": "skip"
+        },
+        {
+          "name": "HTTP",
+          "status": "skip"
+        },
+        {
+          "name": "Hadoop",
+          "status": "skip"
+        },
+        {
+          "name": "Healthcare",
+          "status": "skip"
+        },
+        {
+          "name": "Heather",
+          "status": "skip"
+        },
+        {
+          "name": "HelloFax",
+          "status": "skip"
+        },
+        {
+          "name": "Home",
+          "status": "skip"
+        },
+        {
+          "name": "Home buying",
+          "status": "skip"
+        },
+        {
+          "name": "I'll_Name_This_Bidness_Later_LLC",
+          "status": "skip"
+        },
+        {
+          "name": "Ireland",
+          "status": "skip"
+        },
+        {
+          "name": "Javascript",
+          "status": "skip"
+        },
+        {
+          "name": "Job Applications",
+          "status": "skip"
+        },
+        {
+          "name": "Kali",
+          "status": "skip"
+        },
+        {
+          "name": "Kill Your Loser",
+          "status": "skip"
+        },
+        {
+          "name": "Kim and Matt",
+          "status": "skip"
+        },
+        {
+          "name": "LGTG (Shared)",
+          "status": "skip"
+        },
+        {
+          "name": "Languages",
+          "status": "skip"
+        },
+        {
+          "name": "Lars",
+          "status": "skip"
+        },
+        {
+          "name": "Legal shield",
+          "status": "skip"
+        },
+        {
+          "name": "Loan Forgiveness",
+          "status": "skip"
+        },
+        {
+          "name": "MSA Analytics 2020",
+          "status": "skip"
+        },
+        {
+          "name": "MSI834e6.tmp",
+          "status": "skip"
+        },
+        {
+          "name": "Mail",
+          "status": "skip"
+        },
+        {
+          "name": "Maple Beer and Wine",
+          "status": "skip"
+        },
+        {
+          "name": "Mareike",
+          "status": "skip"
+        },
+        {
+          "name": "Mat_Makers_LLC",
+          "status": "skip"
+        },
+        {
+          "name": "Mazda",
+          "status": "skip"
+        },
+        {
+          "name": "Memes",
+          "status": "skip"
+        },
+        {
+          "name": "Miscellaneous",
+          "status": "skip"
+        },
+        {
+          "name": "Mixes",
+          "status": "skip"
+        },
+        {
+          "name": "MoCo College",
+          "status": "skip"
+        },
+        {
+          "name": "Motorcycle",
+          "status": "skip"
+        },
+        {
+          "name": "Movies_TV",
+          "status": "skip"
+        },
         {
           "name": "Music",
           "status": "pending"
+        },
+        {
+          "name": "My Drive",
+          "status": "skip"
+        },
+        {
+          "name": "My Kindle Content",
+          "status": "skip"
+        },
+        {
+          "name": "MySQL",
+          "status": "skip"
+        },
+        {
+          "name": "NASM",
+          "status": "skip"
+        },
+        {
+          "name": "NITAAC",
+          "status": "skip"
+        },
+        {
+          "name": "Navy reserve",
+          "status": "skip"
+        },
+        {
+          "name": "NextMile",
+          "status": "skip"
+        },
+        {
+          "name": "Nordic",
+          "status": "skip"
+        },
+        {
+          "name": "Nutrition",
+          "status": "skip"
+        },
+        {
+          "name": "OkCupid Photos",
+          "status": "skip"
+        },
+        {
+          "name": "Oracle Exam - 1Z0-071 - Certification",
+          "status": "skip"
+        },
+        {
+          "name": "PCAP Certification",
+          "status": "skip"
+        },
+        {
+          "name": "PHP",
+          "status": "skip"
+        },
+        {
+          "name": "Paul Davids Guitar",
+          "status": "skip"
+        },
+        {
+          "name": "Penetration Testing",
+          "status": "skip"
+        },
+        {
+          "name": "Photos",
+          "status": "skip"
+        },
+        {
+          "name": "Piano",
+          "status": "skip"
+        },
+        {
+          "name": "Play Books Notes",
+          "status": "skip"
+        },
+        {
+          "name": "Postgres",
+          "status": "skip"
+        },
+        {
+          "name": "Python",
+          "status": "skip"
+        },
+        {
+          "name": "Quick dictionary",
+          "status": "skip"
+        },
+        {
+          "name": "R",
+          "status": "skip"
+        },
+        {
+          "name": "ReadEra",
+          "status": "skip"
+        },
+        {
+          "name": "Recipes",
+          "status": "skip"
+        },
+        {
+          "name": "Salsa",
+          "status": "skip"
+        },
+        {
+          "name": "Sawyer Flats",
+          "status": "skip"
+        },
+        {
+          "name": "Security Clearance (DCSA) Results",
+          "status": "skip"
+        },
+        {
+          "name": "Software",
+          "status": "skip"
+        },
+        {
+          "name": "Songs",
+          "status": "skip"
+        },
+        {
+          "name": "Stack",
+          "status": "skip"
+        },
+        {
+          "name": "Stack Export 2022-08-01T07:06:31.437908",
+          "status": "skip"
+        },
+        {
+          "name": "SteveIRL",
+          "status": "skip"
+        },
+        {
+          "name": "StrongLifts",
+          "status": "skip"
+        },
+        {
+          "name": "Student Loans",
+          "status": "skip"
+        },
+        {
+          "name": "T-mobile Credit Freeze",
+          "status": "skip"
+        },
+        {
+          "name": "TK 70-433",
+          "status": "skip"
+        },
+        {
+          "name": "TRSS",
+          "status": "skip"
+        },
+        {
+          "name": "Tabata Timer weekly backups",
+          "status": "skip"
+        },
+        {
+          "name": "Tattoo",
+          "status": "skip"
+        },
+        {
+          "name": "Taxes2021",
+          "status": "skip"
+        },
+        {
+          "name": "Taxes2022",
+          "status": "skip"
+        },
+        {
+          "name": "Taxes2023",
+          "status": "skip"
+        },
+        {
+          "name": "Taxes2026",
+          "status": "skip"
+        },
+        {
+          "name": "TeachChina",
+          "status": "skip"
+        },
+        {
+          "name": "The Beatles",
+          "status": "skip"
+        },
+        {
+          "name": "Treasury Direct",
+          "status": "skip"
+        },
+        {
+          "name": "UPenn Application",
+          "status": "skip"
+        },
+        {
+          "name": "USAJOBS",
+          "status": "skip"
+        },
+        {
+          "name": "Upwork",
+          "status": "skip"
+        },
+        {
+          "name": "VBA Code",
+          "status": "skip"
+        },
+        {
+          "name": "Vanguard Investments",
+          "status": "skip"
+        },
+        {
+          "name": "Visual Studio 2008",
+          "status": "skip"
+        },
+        {
+          "name": "WalletOfSatoshi_Backup",
+          "status": "skip"
+        },
+        {
+          "name": "Women in music [playlist] - sample",
+          "status": "skip"
+        },
+        {
+          "name": "Xterra",
+          "status": "skip"
+        },
+        {
+          "name": "YouTube",
+          "status": "skip"
+        },
+        {
+          "name": "YouTube Project",
+          "status": "skip"
+        },
+        {
+          "name": "_ Archive",
+          "status": "skip"
+        },
+        {
+          "name": "__pycache__",
+          "status": "skip"
+        },
+        {
+          "name": "american_affairs",
+          "status": "skip"
+        },
+        {
+          "name": "armchair history",
+          "status": "skip"
+        },
+        {
+          "name": "audiobooks",
+          "status": "skip"
+        },
+        {
+          "name": "basil",
+          "status": "skip"
+        },
+        {
+          "name": "bfsfcu20230610",
+          "status": "skip"
+        },
+        {
+          "name": "blackjack",
+          "status": "skip"
+        },
+        {
+          "name": "brian",
+          "status": "skip"
+        },
+        {
+          "name": "brilliant",
+          "status": "skip"
+        },
+        {
+          "name": "budgeting",
+          "status": "skip"
+        },
+        {
+          "name": "calendar",
+          "status": "skip"
+        },
+        {
+          "name": "cigna_eob20240506",
+          "status": "skip"
+        },
+        {
+          "name": "cigna_eob20240525",
+          "status": "skip"
+        },
+        {
+          "name": "codewars",
+          "status": "skip"
+        },
+        {
+          "name": "compressor",
+          "status": "pending"
+        },
+        {
+          "name": "cyberflow",
+          "status": "pending"
+        },
+        {
+          "name": "dabmusic",
+          "status": "skip"
+        },
+        {
+          "name": "daily",
+          "status": "pending"
+        },
+        {
+          "name": "data_annotation",
+          "status": "skip"
+        },
+        {
+          "name": "email_clean",
+          "status": "pending"
+        },
+        {
+          "name": "guestspot-vip",
+          "status": "skip"
+        },
+        {
+          "name": "hinge",
+          "status": "skip"
+        },
+        {
+          "name": "iamtimcorrey",
+          "status": "skip"
+        },
+        {
+          "name": "imakelists",
+          "status": "skip"
+        },
+        {
+          "name": "irlflex",
+          "status": "skip"
+        },
+        {
+          "name": "java flex",
+          "status": "skip"
+        },
+        {
+          "name": "jokes",
+          "status": "skip"
+        },
+        {
+          "name": "kim",
+          "status": "skip"
+        },
+        {
+          "name": "kindle_downloader",
+          "status": "skip"
+        },
+        {
+          "name": "kindle_downloader_books",
+          "status": "skip"
+        },
+        {
+          "name": "language-study",
+          "status": "pending"
+        },
+        {
+          "name": "leetcode",
+          "status": "skip"
+        },
+        {
+          "name": "lickbyneck",
+          "status": "skip"
+        },
+        {
+          "name": "magnets",
+          "status": "skip"
+        },
+        {
+          "name": "mailbox_business",
+          "status": "skip"
+        },
+        {
+          "name": "masterclass",
+          "status": "skip"
+        },
+        {
+          "name": "mcloud_download",
+          "status": "pending"
+        },
+        {
+          "name": "mcloud_music_player",
+          "status": "skip"
+        },
+        {
+          "name": "mcloud_playlists",
+          "status": "pending"
+        },
+        {
+          "name": "mentuition",
+          "status": "skip"
+        },
+        {
+          "name": "mentuition-playwright",
+          "status": "skip"
+        },
+        {
+          "name": "microsoft_trainings",
+          "status": "skip"
+        },
+        {
+          "name": "monochrome",
+          "status": "skip"
+        },
+        {
+          "name": "musizbrainz",
+          "status": "skip"
+        },
+        {
+          "name": "noteshub",
+          "status": "skip"
+        },
+        {
+          "name": "notesnook_to_trilium",
+          "status": "skip"
+        },
+        {
+          "name": "novalauncher backups",
+          "status": "skip"
+        },
+        {
+          "name": "passport",
+          "status": "skip"
+        },
+        {
+          "name": "plex_download",
+          "status": "skip"
+        },
+        {
+          "name": "projects",
+          "status": "skip"
+        },
+        {
+          "name": "receipts",
+          "status": "skip"
+        },
+        {
+          "name": "release_dates",
+          "status": "skip"
+        },
+        {
+          "name": "remarkable-highlights-export",
+          "status": "skip"
+        },
+        {
+          "name": "shazams",
+          "status": "skip"
+        },
+        {
+          "name": "shortcuts",
+          "status": "skip"
+        },
+        {
+          "name": "snowflake_data_engineering(coursera)",
+          "status": "pending"
+        },
+        {
+          "name": "snowpro core",
+          "status": "skip"
+        },
+        {
+          "name": "sr4",
+          "status": "skip"
+        },
+        {
+          "name": "surveyautomator",
+          "status": "skip"
+        },
+        {
+          "name": "temp",
+          "status": "skip"
+        },
+        {
+          "name": "tools",
+          "status": "skip"
+        },
+        {
+          "name": "transcript",
+          "status": "skip"
+        },
+        {
+          "name": "trilium-data",
+          "status": "skip"
+        },
+        {
+          "name": "tryhackme",
+          "status": "pending"
+        },
+        {
+          "name": "visual basic",
+          "status": "skip"
+        },
+        {
+          "name": "workout",
+          "status": "pending"
+        },
+        {
+          "name": "zArchived",
+          "status": "skip"
+        },
+        {
+          "name": "\ud83c\udf0a Trap Tape _ New Rap Songs 202",
+          "status": "skip"
         }
       ],
       "counts": {
         "Folders synced": 0,
-        "Folders skipped": 0,
+        "Folders skipped": 195,
         "Rsync errors": 0
       },
       "log_tail": [
-        "[2026-04-13 15:44:37] Starting backup to /home/malston/q",
-        "[2026-04-13 15:44:37] Copied: Music",
-        "[2026-04-13 15:44:37] Backup complete."
+        "'/home/malston/workout/js/api.js' -> '/home/malston/q/workout/js/api.js'",
+        "'/home/malston/workout/CONTRIBUTING.md' -> '/home/malston/q/workout/CONTRIBUTING.md'",
+        "'/home/malston/workout/scripts/scrape-fitnessprogramer.js' -> '/home/malston/q/workout/scripts/scrape-fitnessprogramer.js'",
+        "'/home/malston/workout/index.html' -> '/home/malston/q/workout/index.html'",
+        "[2026-04-14 15:20:41] Copied: workout",
+        "[2026-04-14 15:20:41] SKIP (not found): Xterra",
+        "[2026-04-14 15:20:41] SKIP (not found): YouTube",
+        "[2026-04-14 15:20:41] SKIP (not found): YouTube Project",
+        "[2026-04-14 15:20:41] SKIP (not found): zArchived",
+        "[2026-04-14 15:20:41] Backup complete."
       ],
-      "next_run": "2026-04-14 12:00:00"
+      "next_run": "2026-04-15 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -49,7 +876,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-04-14 13:00:00"
+      "next_run": "2026-04-15 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -61,19 +888,19 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-04-14 14:00:00"
+      "next_run": "2026-04-15 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-04-12 14:39:58",
+      "last_run": "2026-04-14 14:00:01",
       "status": "error",
-      "progress": 85,
+      "progress": 71,
       "steps": [
         {
           "name": "import_kcrw.py",
-          "status": "error"
+          "status": "ok"
         },
         {
           "name": "kcrw_dedup.py",
@@ -90,29 +917,25 @@
         {
           "name": "soundcloud_search.py",
           "status": "ok"
-        },
-        {
-          "name": "download_soundcloud_errors.py",
-          "status": "error"
         }
       ],
       "counts": {
-        "Scripts OK": 2,
-        "Scripts failed": 4
+        "Scripts OK": 3,
+        "Scripts failed": 2
       },
       "log_tail": [
-        "[download]  28.0% of ~  67.90MiB at  266.32KiB/s ETA 03:03 (frag 99/355)",
-        "[download]  28.0% of ~  68.12MiB at  278.09KiB/s ETA 03:01 (frag 99/355)",
-        "[download]  27.9% of ~  68.36MiB at  278.09KiB/s ETA 03:01 (frag 100/355)",
-        "[download]  28.2% of ~  67.68MiB at  276.56KiB/s ETA 03:01 (frag 100/355)",
-        "[download]  28.2% of ~  67.69MiB at  276.56KiB/s ETA 03:01 (frag 100/355)",
-        "[download]  28.2% of ~  67.70MiB at  276.56KiB/s ETA 03:01 (frag 100/355)",
-        "[download]  28.2% of ~  67.71MiB at  276.56KiB/s ETA 03:01 (frag 100/355)",
-        "[download]  28.2% of ~  67.74MiB at  277.96KiB/s ETA 03:01 (frag 100/355)",
-        "[download]  28.2% of ~  67.79MiB at  277.96KiB/s ETA 03:01 (frag 100/355)",
-        "[download]  28.3% of ~  67.90MiB at  277.96KiB/s ETA 03:01 (frag 100/355)"
+        "  preview (30s): Carl Carlton - she's a bad mama jama (she's built, she's stacked) \u2014 replacing via YouTube Music...",
+        "  preview (30s): Carmen McRae - i just wasn't made for these times \u2014 replacing via YouTube Music...",
+        "  preview (30s): Carole King - only love is real \u2014 replacing via YouTube Music...",
+        "  preview (30s): Cat Stevens - peace train \u2014 replacing via YouTube Music...",
+        "  preview (30s): Cat Stevens - where do the children play? \u2014 replacing via YouTube Music...[generic] Extracting URL: ytmsearch5:Cat Stevens where do the children play?",
+        "[generic] ytmsearch5:Cat Stevens where do the children play?: Downloading webpage",
+        "ERROR: Unable to handle request: Unsupported url scheme: \"ytmsearch5\" (requests, urllib)",
+        "[generic] Extracting URL: ytmsearch5:Cause & Effect you think you know her (unfaithful mix)",
+        "[generic] ytmsearch5:Cause & Effect you think you know her (unfaithful mix): Downloading webpage",
+        "ERROR: Unable to handle request: Unsupported url scheme: \"ytmsearch5\" (requests, urllib)"
       ],
-      "next_run": "2026-04-14 14:00:00"
+      "next_run": "2026-04-15 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -127,18 +950,18 @@
         "Vocab files changed": 0
       },
       "log_tail": [
-        "- **`careers_in_cyber.txt`** \u2014 Security Engineer, Incident Responder, MTTD/MTTA/MTTR, Digital Forensics Examiner, Malware Analyst, Pentester, Red Teamer, Static/Dynamic Analysis, career motivations \u2713",
-        "- **`networking_basics.txt`** \u2014 ARPANET, WWW, IP/IPv4/IPv6, MAC, ICMP, Ping, Octet, ISP, Firewall, Hexadecimal, ping -c, all diagram cards \u2713",
-        "- **`lan_topologies.txt`** \u2014 Star/Bus/Ring topologies, Switch, Hub, Router, Routing, Subnetting, Subnet Mask, Network/Host/Default Gateway addresses, ARP (Request/Reply/Cache), DHCP (Discover/Offer/Request/ACK) \u2713",
-        "- **`osi_model.txt`** \u2014 All 7 layers, NIC, OSPF, RIP, TCP, UDP, DNS, Session, Three-Way Handshake, Layer 3 routing criteria, OSI mnemonic \u2713",
-        "- **`packets_and_frames.txt`** \u2014 Packet, Frame, Encapsulation, TTL, Checksum, Source/Destination Address \u2713",
-        "- **`tcp_ip.txt`** \u2014 TCP/IP Model, all TCP/UDP headers, handshake messages (SYN/SYN-ACK/ACK/DATA/FIN/RST), ISN, all common ports (FTP/SSH/HTTP/HTTPS/SMB/RDP) \u2713",
-        "- **`extending_your_network.txt`** \u2014 Port Forwarding, Stateful/Stateless Firewall \u2713",
+        "- `careers_in_cyber.txt` \u2014 complete (14 entries)",
+        "- `networking_basics.txt` \u2014 complete (29 entries including images)",
+        "- `lan_topologies.txt` \u2014 complete (33 entries including images)",
+        "- `osi_model.txt` \u2014 complete (31 entries including images)",
+        "- `packets_and_frames.txt` \u2014 complete (7 entries)",
+        "- `tcp_ip.txt` \u2014 complete (37 entries including images)",
+        "- `extending_your_network.txt` \u2014 complete (7 entries including images)",
         "",
-        "No changes needed \u2014 vocabulary files are fully up to date with the notes. Nothing to commit.",
+        "The hook ran `git pull` on notes and got \"Already up to date\" \u2014 no new notes were pulled. No changes needed, so no commit was made.",
         "Done."
       ],
-      "next_run": "2026-04-14 15:00:00"
+      "next_run": "2026-04-15 15:00:00"
     }
   ]
 }
