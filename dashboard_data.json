@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-14 16:00:09",
+  "generated_at": "2026-04-16 16:00:05",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-04-14 12:00:00",
+      "last_run": "2026-04-16 12:00:00",
       "status": "ok",
       "progress": 94,
       "steps": [
@@ -844,14 +844,14 @@
         "'/home/malston/workout/CONTRIBUTING.md' -> '/home/malston/q/workout/CONTRIBUTING.md'",
         "'/home/malston/workout/scripts/scrape-fitnessprogramer.js' -> '/home/malston/q/workout/scripts/scrape-fitnessprogramer.js'",
         "'/home/malston/workout/index.html' -> '/home/malston/q/workout/index.html'",
-        "[2026-04-14 15:20:41] Copied: workout",
-        "[2026-04-14 15:20:41] SKIP (not found): Xterra",
-        "[2026-04-14 15:20:41] SKIP (not found): YouTube",
-        "[2026-04-14 15:20:41] SKIP (not found): YouTube Project",
-        "[2026-04-14 15:20:41] SKIP (not found): zArchived",
-        "[2026-04-14 15:20:41] Backup complete."
+        "[2026-04-16 13:56:06] Copied: workout",
+        "[2026-04-16 13:56:06] SKIP (not found): Xterra",
+        "[2026-04-16 13:56:06] SKIP (not found): YouTube",
+        "[2026-04-16 13:56:06] SKIP (not found): YouTube Project",
+        "[2026-04-16 13:56:06] SKIP (not found): zArchived",
+        "[2026-04-16 13:56:06] Backup complete."
       ],
-      "next_run": "2026-04-15 12:00:00"
+      "next_run": "2026-04-17 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -876,7 +876,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-04-15 13:00:00"
+      "next_run": "2026-04-17 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -888,15 +888,15 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-04-15 14:00:00"
+      "next_run": "2026-04-17 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-04-14 14:00:01",
+      "last_run": "2026-04-16 14:00:01",
       "status": "error",
-      "progress": 71,
+      "progress": 85,
       "steps": [
         {
           "name": "import_kcrw.py",
@@ -917,25 +917,29 @@
         {
           "name": "soundcloud_search.py",
           "status": "ok"
+        },
+        {
+          "name": "download_soundcloud_errors.py",
+          "status": "ok"
         }
       ],
       "counts": {
-        "Scripts OK": 3,
+        "Scripts OK": 4,
         "Scripts failed": 2
       },
       "log_tail": [
-        "  preview (30s): Carl Carlton - she's a bad mama jama (she's built, she's stacked) \u2014 replacing via YouTube Music...",
-        "  preview (30s): Carmen McRae - i just wasn't made for these times \u2014 replacing via YouTube Music...",
-        "  preview (30s): Carole King - only love is real \u2014 replacing via YouTube Music...",
-        "  preview (30s): Cat Stevens - peace train \u2014 replacing via YouTube Music...",
-        "  preview (30s): Cat Stevens - where do the children play? \u2014 replacing via YouTube Music...[generic] Extracting URL: ytmsearch5:Cat Stevens where do the children play?",
-        "[generic] ytmsearch5:Cat Stevens where do the children play?: Downloading webpage",
         "ERROR: Unable to handle request: Unsupported url scheme: \"ytmsearch5\" (requests, urllib)",
-        "[generic] Extracting URL: ytmsearch5:Cause & Effect you think you know her (unfaithful mix)",
-        "[generic] ytmsearch5:Cause & Effect you think you know her (unfaithful mix): Downloading webpage",
+        "[generic] Extracting URL: ytmsearch5:Everything Is Recorded porcupine tattoo feat. noah cyrus & bill callahan (dj koze remix)",
+        "[generic] ytmsearch5:Everything Is Recorded porcupine tattoo feat: Downloading webpage",
+        "ERROR: Unable to handle request: Unsupported url scheme: \"ytmsearch5\" (requests, urllib)",
+        "[generic] Extracting URL: ytmsearch5:Everything Is Recorded swamp dream #3 (feat. mary in the junkyard)",
+        "[generic] ytmsearch5:Everything Is Recorded swamp dream #3 (feat: Downloading webpage",
+        "ERROR: Unable to handle request: Unsupported url scheme: \"ytmsearch5\" (requests, urllib)",
+        "[generic] Extracting URL: ytmsearch5:FLETCHER sh...don't say it",
+        "[generic] ytmsearch5:FLETCHER sh..: Downloading webpage",
         "ERROR: Unable to handle request: Unsupported url scheme: \"ytmsearch5\" (requests, urllib)"
       ],
-      "next_run": "2026-04-15 14:00:00"
+      "next_run": "2026-04-17 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -950,18 +954,18 @@
         "Vocab files changed": 0
       },
       "log_tail": [
-        "- `careers_in_cyber.txt` \u2014 complete (14 entries)",
-        "- `networking_basics.txt` \u2014 complete (29 entries including images)",
-        "- `lan_topologies.txt` \u2014 complete (33 entries including images)",
-        "- `osi_model.txt` \u2014 complete (31 entries including images)",
-        "- `packets_and_frames.txt` \u2014 complete (7 entries)",
-        "- `tcp_ip.txt` \u2014 complete (37 entries including images)",
-        "- `extending_your_network.txt` \u2014 complete (7 entries including images)",
+        "- `vocabulary/Introduction/careers_in_cyber.txt` \u2014 14 terms \u2713  ",
+        "- `vocabulary/Network Fundamentals/networking_basics.txt` \u2014 28 terms \u2713",
+        "- `vocabulary/Network Fundamentals/lan_topologies.txt` \u2014 33 terms \u2713",
+        "- `vocabulary/Network Fundamentals/osi_model.txt` \u2014 31 terms \u2713",
+        "- `vocabulary/Packets and Frames/packets_and_frames.txt` \u2014 7 terms \u2713",
+        "- `vocabulary/Packets and Frames/tcp_ip.txt` \u2014 37 terms \u2713",
+        "- `vocabulary/Extending Your Network/extending_your_network.txt` \u2014 7 terms \u2713",
         "",
-        "The hook ran `git pull` on notes and got \"Already up to date\" \u2014 no new notes were pulled. No changes needed, so no commit was made.",
+        "The only change in the notes submodule was to `url.md`, which is excluded from vocab updates. No commit needed.",
         "Done."
       ],
-      "next_run": "2026-04-15 15:00:00"
+      "next_run": "2026-04-17 15:00:00"
     }
   ]
 }
