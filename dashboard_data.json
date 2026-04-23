@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-22 16:00:05",
+  "generated_at": "2026-04-23 16:00:06",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-04-22 12:00:00",
+      "last_run": "2026-04-23 12:00:00",
       "status": "ok",
       "progress": 94,
       "steps": [
@@ -844,14 +844,14 @@
         "'/home/malston/workout/CONTRIBUTING.md' -> '/home/malston/q/workout/CONTRIBUTING.md'",
         "'/home/malston/workout/scripts/scrape-fitnessprogramer.js' -> '/home/malston/q/workout/scripts/scrape-fitnessprogramer.js'",
         "'/home/malston/workout/index.html' -> '/home/malston/q/workout/index.html'",
-        "[2026-04-22 13:09:38] Copied: workout",
-        "[2026-04-22 13:09:38] SKIP (not found): Xterra",
-        "[2026-04-22 13:09:38] SKIP (not found): YouTube",
-        "[2026-04-22 13:09:38] SKIP (not found): YouTube Project",
-        "[2026-04-22 13:09:38] SKIP (not found): zArchived",
-        "[2026-04-22 13:09:38] Backup complete."
+        "[2026-04-23 13:23:02] Copied: workout",
+        "[2026-04-23 13:23:02] SKIP (not found): Xterra",
+        "[2026-04-23 13:23:02] SKIP (not found): YouTube",
+        "[2026-04-23 13:23:02] SKIP (not found): YouTube Project",
+        "[2026-04-23 13:23:02] SKIP (not found): zArchived",
+        "[2026-04-23 13:23:02] Backup complete."
       ],
-      "next_run": "2026-04-23 12:00:00"
+      "next_run": "2026-04-24 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -876,7 +876,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-04-23 13:00:00"
+      "next_run": "2026-04-24 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -888,13 +888,13 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-04-23 14:00:00"
+      "next_run": "2026-04-24 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-04-22 14:00:01",
+      "last_run": "2026-04-23 14:00:01",
       "status": "error",
       "progress": 85,
       "steps": [
@@ -928,18 +928,18 @@
         "Scripts failed": 2
       },
       "log_tail": [
-        "[download]   6.7% of  465.30KiB at  770.87KiB/s ETA 00:00",
-        "[download]  13.5% of  465.30KiB at  910.15KiB/s ETA 00:00",
-        "[download]  27.3% of  465.30KiB at    1.38MiB/s ETA 00:00",
-        "[download]  54.8% of  465.30KiB at    1.80MiB/s ETA 00:00",
-        "[download] 100.0% of  465.30KiB at    2.43MiB/s ETA 00:00",
-        "[download] 100% of  465.30KiB in 00:00:00 at 1.50MiB/s   ",
         "[ExtractAudio] Not converting audio /home/malston/q/Music/YouTube_Music7/KCRW (Error)/unknown/k.d. lang - reminiscing (bonus track).mp3; file is already in target format mp3",
         "[generic] Extracting URL: ytmsearch5:k.d. lang reminiscing (bonus track)",
         "[generic] ytmsearch5:k.d: Downloading webpage",
+        "ERROR: Unable to handle request: Unsupported url scheme: \"ytmsearch5\" (requests, urllib)",
+        "[generic] Extracting URL: ytmsearch5:Maren Morris people still show up [Clean]",
+        "[generic] ytmsearch5:Maren Morris people still show up [Clean]: Downloading webpage",
+        "ERROR: Unable to handle request: Unsupported url scheme: \"ytmsearch5\" (requests, urllib)",
+        "[generic] Extracting URL: ytmsearch5:Maren Morris people still show up [clean]",
+        "[generic] ytmsearch5:Maren Morris people still show up [clean]: Downloading webpage",
         "ERROR: Unable to handle request: Unsupported url scheme: \"ytmsearch5\" (requests, urllib)"
       ],
-      "next_run": "2026-04-23 14:00:00"
+      "next_run": "2026-04-24 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -954,18 +954,18 @@
         "Vocab files changed": 0
       },
       "log_tail": [
-        "- `careers_in_cyber.md` \u2192 `Introduction/careers_in_cyber.txt` \u2713 (14 entries, all covered)",
-        "- `what_is_networking(addresses).md` \u2192 `Network Fundamentals/networking_basics.txt` \u2713 (28 entries, all covered)",
-        "- `intro to lan.md` \u2192 `Network Fundamentals/lan_topologies.txt` \u2713 (33 entries, all covered)",
-        "- `osi model.md` \u2192 `Network Fundamentals/osi_model.txt` \u2713 (31 entries, all covered)",
-        "- `packets and frames.md` \u2192 `Packets and Frames/packets_and_frames.txt` \u2713 (7 entries, all covered)",
-        "- `TCP-IP.md` \u2192 `Packets and Frames/tcp_ip.txt` \u2713 (37 entries, all covered)",
-        "- `extending your network.md` \u2192 `Extending Your Network/extending_your_network.txt` \u2713 (7 entries, all covered)",
+        "| `2. careers_in_cyber.md` | `Introduction/careers_in_cyber.txt` (14 entries) | \u2713 Complete |",
+        "| `1. what_is_networking(addresses).md` | `Network Fundamentals/networking_basics.txt` (29 entries) | \u2713 Complete |",
+        "| `2. intro to lan.md` | `Network Fundamentals/lan_topologies.txt` (33 entries) | \u2713 Complete |",
+        "| `3. osi model.md` | `Network Fundamentals/osi_model.txt` (31 entries) | \u2713 Complete |",
+        "| `packets and frames.md` | `Packets and Frames/packets_and_frames.txt` (7 entries) | \u2713 Complete |",
+        "| `TCP-IP.md` | `Packets and Frames/tcp_ip.txt` (37 entries) | \u2713 Complete |",
+        "| `extending your network.md` | `Extending Your Network/extending_your_network.txt` (7 entries) | \u2713 Complete |",
         "",
-        "The most recent notes change was to `url.md` (skipped per instructions), and all vocabulary files are fully synchronized with the notes. No commit needed.",
+        "All terms, definitions, and image cards from the notes are represented in the vocabulary files. Nothing to commit.",
         "Done."
       ],
-      "next_run": "2026-04-23 15:00:00"
+      "next_run": "2026-04-24 15:00:00"
     }
   ]
 }
