@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-29 16:00:06",
+  "generated_at": "2026-05-03 16:00:06",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-04-29 12:00:00",
+      "last_run": "2026-05-03 14:58:47",
       "status": "ok",
       "progress": 0,
       "steps": [
@@ -48,10 +48,10 @@
         "'/home/malston/tryhackme/scripts/update_vocab.log' -> '/home/malston/q/tryhackme/scripts/update_vocab.log'",
         "'/home/malston/tryhackme/scripts/update_vocab.sh' -> '/home/malston/q/tryhackme/scripts/update_vocab.sh'",
         "'/home/malston/tryhackme/.claude/settings.local.json' -> '/home/malston/q/tryhackme/.claude/settings.local.json'",
-        "[2026-04-29 12:00:08] Copied: tryhackme",
-        "[2026-04-29 12:00:08] Backup complete."
+        "[2026-05-03 14:58:54] Copied: tryhackme",
+        "[2026-05-03 14:58:54] Backup complete."
       ],
-      "next_run": "2026-04-30 12:00:00"
+      "next_run": "2026-05-04 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -76,7 +76,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-04-30 13:00:00"
+      "next_run": "2026-05-04 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -88,13 +88,13 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-04-30 14:00:00"
+      "next_run": "2026-05-04 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-04-29 14:00:01",
+      "last_run": "2026-05-03 00:00:00",
       "status": "warning",
       "progress": 100,
       "steps": [
@@ -133,17 +133,17 @@
       },
       "log_tail": [
         "           ~~~~~~~~~^^^^^^^^^^^^^",
-        "  File \"/home/malston/mcloud_playlists/dabmusic/client.py\", line 35, in _get",
-        "    resp.raise_for_status()",
-        "    ~~~~~~~~~~~~~~~~~~~~~^^",
-        "  File \"/home/malston/miniconda3/lib/python3.13/site-packages/requests/models.py\", line 1026, in raise_for_status",
-        "    raise HTTPError(http_error_msg, response=self)",
-        "requests.exceptions.HTTPError: 522 Server Error: <none> for url: https://dabmusic.xyz/api/libraries",
+        "  File \"/home/malston/mcloud_playlists/dabmusic/client.py\", line 36, in _get",
+        "    return resp.json()",
+        "           ~~~~~~~~~^^",
+        "  File \"/home/malston/miniconda3/lib/python3.13/site-packages/requests/models.py\", line 980, in json",
+        "    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)",
+        "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
         "\u2717 failed (exit 1)",
         "",
-        "2026-04-29 15:01:32 \u2014 finished"
+        "2026-05-03 00:55:18 \u2014 finished"
       ],
-      "next_run": "2026-04-30 14:00:00"
+      "next_run": "2026-05-04 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -158,18 +158,18 @@
         "Vocab files changed": 0
       },
       "log_tail": [
-        "- All terms from `careers_in_cyber.md` are in `vocabulary/Introduction/careers_in_cyber.txt` (14 entries)",
-        "- All terms from `what_is_networking.md` are in `vocabulary/Network Fundamentals/networking_basics.txt` (28 entries)",
-        "- All terms from `intro to lan.md` are in `vocabulary/Network Fundamentals/lan_topologies.txt` (33 entries)",
-        "- All terms from `osi model.md` are in `vocabulary/Network Fundamentals/osi_model.txt` (31 entries)",
-        "- All terms from `packets and frames.md` are in `vocabulary/Packets and Frames/packets_and_frames.txt` (7 entries)",
-        "- All terms from `TCP-IP.md` are in `vocabulary/Packets and Frames/tcp_ip.txt` (37 entries)",
-        "- All terms from `extending your network.md` are in `vocabulary/Extending Your Network/extending_your_network.txt` (7 entries)",
+        "- **`vocabulary/Introduction/careers_in_cyber.txt`** \u2014 all terms from `2. careers_in_cyber.md` are present (career roles, MTTD/MTTA/MTTR, analysis types, motivations)",
+        "- **`vocabulary/Network Fundamentals/networking_basics.txt`** \u2014 all terms from `1. what_is_networking.md` are present (ARPANET, IP/MAC addressing, ICMP/ping, IPv4/IPv6, all images)",
+        "- **`vocabulary/Network Fundamentals/lan_topologies.txt`** \u2014 all terms from `2. intro to lan.md` are present (topologies, switch/router, subnetting, ARP, DHCP, all images)",
+        "- **`vocabulary/Network Fundamentals/osi_model.txt`** \u2014 all terms from `3. osi model.md` are present (all 7 layers, TCP/UDP, routing protocols, DNS, all images)",
+        "- **`vocabulary/Packets and Frames/packets_and_frames.txt`** \u2014 all terms from `packets and frames.md` are present",
+        "- **`vocabulary/Packets and Frames/tcp_ip.txt`** \u2014 all terms from `TCP-IP.md` are present (handshake, headers, UDP, ports)",
+        "- **`vocabulary/Extending Your Network/extending_your_network.txt`** \u2014 all terms from `extending your network.md` are present (port forwarding, firewalls)",
         "",
-        "All 24 image attachments across all notes directories are referenced in vocabulary files. No changes needed \u2014 skipping commit per task instructions.",
+        "No changes needed \u2014 nothing to commit.",
         "Done."
       ],
-      "next_run": "2026-04-30 15:00:00"
+      "next_run": "2026-05-04 15:00:00"
     }
   ]
 }
