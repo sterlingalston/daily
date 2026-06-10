@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-01 16:00:07",
+  "generated_at": "2026-06-10 16:00:07",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-06-01 14:44:07",
+      "last_run": "2026-06-10 14:12:12",
       "status": "ok",
       "progress": 0,
       "steps": [
@@ -123,10 +123,6 @@
         },
         {
           "name": "DataTalksClub",
-          "status": "pending"
-        },
-        {
-          "name": "Decoverly Place",
           "status": "pending"
         },
         {
@@ -255,10 +251,6 @@
         },
         {
           "name": "LGTG (Shared)",
-          "status": "pending"
-        },
-        {
-          "name": "Languages",
           "status": "pending"
         },
         {
@@ -710,10 +702,6 @@
           "status": "pending"
         },
         {
-          "name": "mcloud_music_player",
-          "status": "pending"
-        },
-        {
           "name": "mcloud_playlists",
           "status": "pending"
         },
@@ -852,10 +840,10 @@
         "'/home/malston/tryhackme/scripts/update_vocab.log' -> '/home/malston/q/tryhackme/scripts/update_vocab.log'",
         "'/home/malston/tryhackme/scripts/update_vocab.sh' -> '/home/malston/q/tryhackme/scripts/update_vocab.sh'",
         "'/home/malston/tryhackme/.claude/settings.local.json' -> '/home/malston/q/tryhackme/.claude/settings.local.json'",
-        "[2026-06-01 14:44:17] Copied: tryhackme",
-        "[2026-06-01 14:44:17] Backup complete."
+        "[2026-06-10 14:12:22] Copied: tryhackme",
+        "[2026-06-10 14:12:22] Backup complete."
       ],
-      "next_run": "2026-06-02 12:00:00"
+      "next_run": "2026-06-11 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -880,7 +868,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-06-02 13:00:00"
+      "next_run": "2026-06-11 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -892,13 +880,13 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-06-02 14:00:00"
+      "next_run": "2026-06-11 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-06-01 14:44:07",
+      "last_run": "2026-06-10 14:12:12",
       "status": "error",
       "progress": 85,
       "steps": [
@@ -932,18 +920,18 @@
         "Scripts failed": 3
       },
       "log_tail": [
-        "[download]   6.7% of  465.30KiB at    1.56MiB/s ETA 00:00",
-        "[download]  13.5% of  465.30KiB at  742.26KiB/s ETA 00:00",
-        "[download]  27.3% of  465.30KiB at    1.11MiB/s ETA 00:00",
-        "[download]  54.8% of  465.30KiB at    1.57MiB/s ETA 00:00",
-        "[download] 100.0% of  465.30KiB at    2.14MiB/s ETA 00:00",
-        "[download] 100% of  465.30KiB in 00:00:00 at 684.22KiB/s ",
+        "[download]   6.7% of  465.30KiB at  301.48KiB/s ETA 00:01",
+        "[download]  13.5% of  465.30KiB at  434.67KiB/s ETA 00:00",
+        "[download]  27.3% of  465.30KiB at  617.72KiB/s ETA 00:00",
+        "[download]  54.8% of  465.30KiB at  945.99KiB/s ETA 00:00",
+        "[download] 100.0% of  465.30KiB at    1.38MiB/s ETA 00:00",
+        "[download] 100% of  465.30KiB in 00:00:00 at 485.48KiB/s ",
         "[ExtractAudio] Not converting audio /home/malston/q/Music/YouTube_Music7/KCRW (Error)/unknown/k.d. lang - reminiscing (bonus track).mp3; file is already in target format mp3",
         "[generic] Extracting URL: ytmsearch5:k.d. lang reminiscing (bonus track)",
         "[generic] ytmsearch5:k.d: Downloading webpage",
         "ERROR: Unable to handle request: Unsupported url scheme: \"ytmsearch5\" (requests, urllib)"
       ],
-      "next_run": "2026-06-02 14:00:00"
+      "next_run": "2026-06-11 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -958,18 +946,18 @@
         "Vocab files changed": 1
       },
       "log_tail": [
-        "   e7cfec2..cd7adec  main       -> origin/main",
-        "Updating e7cfec2..cd7adec",
-        "Fast-forward",
-        " url.md | 4 +++-",
-        " 1 file changed, 3 insertions(+), 1 deletion(-)",
-        "Running Claude to update vocabulary...",
-        "No vocabulary changes were needed. All notes content is already fully represented in the vocabulary files. No commit was made (per the \"only commit if there are actual changes\" instruction).",
+        "- Router, Switch, Layer 2 Switch, Layer 3 Switch, VLAN (LAN networking devices)",
+        "- 4 image flashcards for VPN, Router, Switch, and VLAN diagrams",
         "",
-        "**Summary:** All 8 relevant notes files were compared against their corresponding vocabulary files. Every term, definition, and image card in the notes is already captured \u2014 nothing was missing or outdated. The `vocabulary/` directory is current with the notes.",
+        "**Created** `vocabulary/DNS in Detail/dns_in_detail.txt` \u2014 14 new terms:",
+        "- DNS, Domain Hierarchy, TLD, gTLD, ccTLD, Second-Level Domain, Subdomain",
+        "- A Record, AAAA Record, CNAME Record, MX Record, TXT Record",
+        "- 2 image flashcards for DNS and Domain Hierarchy diagrams",
+        "",
+        "All other vocabulary files (Introduction, Network Fundamentals, Packets and Frames) were already up to date with their corresponding notes.",
         "Done."
       ],
-      "next_run": "2026-06-02 15:00:00"
+      "next_run": "2026-06-11 15:00:00"
     }
   ]
 }
