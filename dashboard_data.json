@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-13 16:00:07",
+  "generated_at": "2026-06-14 16:00:07",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-06-13 12:00:00",
+      "last_run": "2026-06-14 12:00:00",
       "status": "ok",
       "progress": 94,
       "steps": [
@@ -836,14 +836,14 @@
         "'/home/malston/workout/CONTRIBUTING.md' -> '/home/malston/q/workout/CONTRIBUTING.md'",
         "'/home/malston/workout/scripts/scrape-fitnessprogramer.js' -> '/home/malston/q/workout/scripts/scrape-fitnessprogramer.js'",
         "'/home/malston/workout/index.html' -> '/home/malston/q/workout/index.html'",
-        "[2026-06-13 13:12:36] Copied: workout",
-        "[2026-06-13 13:12:36] SKIP (not found): Xterra",
-        "[2026-06-13 13:12:36] SKIP (not found): YouTube",
-        "[2026-06-13 13:12:36] SKIP (not found): YouTube Project",
-        "[2026-06-13 13:12:36] SKIP (not found): zArchived",
-        "[2026-06-13 13:12:36] Backup complete."
+        "[2026-06-14 13:21:53] Copied: workout",
+        "[2026-06-14 13:21:53] SKIP (not found): Xterra",
+        "[2026-06-14 13:21:53] SKIP (not found): YouTube",
+        "[2026-06-14 13:21:53] SKIP (not found): YouTube Project",
+        "[2026-06-14 13:21:53] SKIP (not found): zArchived",
+        "[2026-06-14 13:21:53] Backup complete."
       ],
-      "next_run": "2026-06-14 12:00:00"
+      "next_run": "2026-06-15 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -868,7 +868,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-06-14 13:00:00"
+      "next_run": "2026-06-15 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -880,13 +880,13 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-06-14 14:00:00"
+      "next_run": "2026-06-15 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-06-13 14:00:01",
+      "last_run": "2026-06-14 14:00:01",
       "status": "error",
       "progress": 85,
       "steps": [
@@ -931,7 +931,7 @@
         "[generic] ytmsearch5:Maren Morris people still show up [clean]: Downloading webpage",
         "ERROR: Unable to handle request: Unsupported url scheme: \"ytmsearch5\" (requests, urllib)"
       ],
-      "next_run": "2026-06-14 14:00:00"
+      "next_run": "2026-06-15 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -946,18 +946,14 @@
         "Vocab files changed": 0
       },
       "log_tail": [
-        "No changes needed. All vocabulary files are already in sync with the notes:",
-        "",
-        "- **Introduction/** \u2014 `defensive_security.txt` (10 terms), `careers_in_cyber.txt` (14 terms), `kali_linux.txt` (8 terms) all match their source notes",
-        "- **Network Fundamentals/** \u2014 `networking_basics.txt` (28 terms), `lan_topologies.txt` (33 terms), `osi_model.txt` (31 terms), `packets_and_frames.txt` (7 terms) all match",
-        "- **Packets and Frames/** \u2014 `packets_and_frames.txt` (7 terms), `tcp_ip.txt` (38 terms) all match",
-        "- **Extending Your Network/** \u2014 `extending_your_network.txt` (22 terms) matches",
-        "- **DNS in Detail/** \u2014 `dns_in_detail.txt` (14 terms) matches",
-        "",
-        "The submodule changes (`3. osi model.md`, `TCP-IP.md`, `extending your network.md`, `DNS in detail.md`) were all new files added since the last submodule commit, but the vocabulary had already been updated to cover their content. No commit needed.",
+        "=== Sun Jun 14 03:00:01 PM PDT 2026 ===",
+        "Pulling latest notes...",
+        "Already up to date.",
+        "Running Claude to update vocabulary...",
+        "No changes needed \u2014 all vocabulary files are already in sync with the notes. Nothing to commit.",
         "Done."
       ],
-      "next_run": "2026-06-14 15:00:00"
+      "next_run": "2026-06-15 15:00:00"
     }
   ]
 }
