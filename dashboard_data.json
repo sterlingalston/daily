@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-15 17:43:33",
+  "generated_at": "2026-06-17 16:00:07",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-06-15 12:00:00",
+      "last_run": "2026-06-17 15:58:07",
       "status": "running",
-      "progress": 47,
+      "progress": 18,
       "steps": [
         {
           "name": ".NVDCache",
@@ -111,159 +111,159 @@
         },
         {
           "name": "DJ",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Data Engineering",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Data Science",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "DataTalksClub",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "DoNotPay",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Election 2024",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Eliza",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Eliza_rental",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Evernote backups",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "FBReader\u00ae book network",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Finn",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Fitness",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "GC Crates",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "GSA",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Golang",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Google AI Studio",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "GoogleScripts",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Grandma Hazel",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Groupon",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Guitar",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Guitar Recordings",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "HTTP",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Hadoop",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Healthcare",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Heather",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "HelloFax",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Home",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Home buying",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "I'll_Name_This_Bidness_Later_LLC",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Ireland",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Javascript",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Job Applications",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Kali",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Kill Your Loser",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Kim and Matt",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "LGTG (Shared)",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Lars",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Legal shield",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Loan Forgiveness",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "MSA Analytics 2020",
@@ -275,23 +275,23 @@
         },
         {
           "name": "Mail",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Maple Beer and Wine",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Mareike",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Mat_Makers_LLC",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Mazda",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Memes",
@@ -631,7 +631,7 @@
         },
         {
           "name": "data_annotation",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "email_clean",
@@ -639,43 +639,43 @@
         },
         {
           "name": "guestspot-vip",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "hinge",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "iamtimcorrey",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "imakelists",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "irlflex",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "java flex",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "jokes",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "kim",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "kindle_downloader",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "kindle_downloader_books",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "language-study",
@@ -683,19 +683,19 @@
         },
         {
           "name": "leetcode",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "magnets",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "mailbox_business",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "masterclass",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "mcloud_download",
@@ -828,22 +828,22 @@
       ],
       "counts": {
         "Folders synced": 0,
-        "Folders skipped": 97,
+        "Folders skipped": 38,
         "Rsync errors": 0
       },
       "log_tail": [
-        "'/home/malston/mcloud_playlists/monochrome/node_modules/graceful-fs/graceful-fs.js' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/graceful-fs/graceful-fs.js'",
-        "'/home/malston/mcloud_playlists/monochrome/node_modules/graceful-fs/legacy-streams.js' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/graceful-fs/legacy-streams.js'",
-        "'/home/malston/mcloud_playlists/monochrome/node_modules/graceful-fs/polyfills.js' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/graceful-fs/polyfills.js'",
-        "'/home/malston/mcloud_playlists/monochrome/node_modules/graceful-fs/package.json' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/graceful-fs/package.json'",
-        "'/home/malston/mcloud_playlists/monochrome/node_modules/graceful-fs/README.md' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/graceful-fs/README.md'",
-        "'/home/malston/mcloud_playlists/monochrome/node_modules/has-bigints/.eslintrc' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/has-bigints/.eslintrc'",
-        "'/home/malston/mcloud_playlists/monochrome/node_modules/has-bigints/.nycrc' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/has-bigints/.nycrc'",
-        "'/home/malston/mcloud_playlists/monochrome/node_modules/has-bigints/LICENSE' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/has-bigints/LICENSE'",
-        "'/home/malston/mcloud_playlists/monochrome/node_modules/has-bigints/index.js' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/has-bigints/index.js'",
-        "cp: cannot stat '/home/malston/q/mcloud_playlists/monochrome/node_modules/has-bigints/test/index.js': Input/output error"
+        "'/home/malston/daily/.git/objects/74/5c8f555280f6be98e6fd876177fa115aa820ae' -> '/home/malston/q/daily/.git/objects/74/5c8f555280f6be98e6fd876177fa115aa820ae'",
+        "'/home/malston/daily/.git/objects/12/2709241c022ad39f45ab317e086e1f94508165' -> '/home/malston/q/daily/.git/objects/12/2709241c022ad39f45ab317e086e1f94508165'",
+        "'/home/malston/daily/.git/objects/12/98fb542a78ed7485f2c128d527b1e3431cd31a' -> '/home/malston/q/daily/.git/objects/12/98fb542a78ed7485f2c128d527b1e3431cd31a'",
+        "'/home/malston/daily/.git/objects/00/72fd2655c4939fa5696e22f0ced82faffa9c0a' -> '/home/malston/q/daily/.git/objects/00/72fd2655c4939fa5696e22f0ced82faffa9c0a'",
+        "'/home/malston/daily/.git/objects/85/6c9971f459f225e95ca1820222baaab0da3cde' -> '/home/malston/q/daily/.git/objects/85/6c9971f459f225e95ca1820222baaab0da3cde'",
+        "'/home/malston/daily/.git/objects/d0/f34fe5a30aec18499ccdebf1d91a3d7349bb7a' -> '/home/malston/q/daily/.git/objects/d0/f34fe5a30aec18499ccdebf1d91a3d7349bb7a'",
+        "'/home/malston/daily/.git/objects/d2/90da1cf795899ed9a66f3a2874c0550e9a0738' -> '/home/malston/q/daily/.git/objects/d2/90da1cf795899ed9a66f3a2874c0550e9a0738'",
+        "'/home/malston/daily/.git/objects/6f/dec85e9f97a986093a642353ce9a9059d26f55' -> '/home/malston/q/daily/.git/objects/6f/dec85e9f97a986093a642353ce9a9059d26f55'",
+        "'/home/malston/daily/.git/objects/7e/35014809262e7e188c0e1069714ce44a01e066' -> '/home/malston/q/daily/.git/objects/7e/35014809262e7e188c0e1069714ce44a01e066'",
+        "'/home/malston/daily/.git/objects/e4/057eb4343641a02e2d2d6b83301a242fbd4ab3' -> '/home/malston/q/daily/.git/objects/e4/057eb4343641a02e2d2d6"
       ],
-      "next_run": "2026-06-16 12:00:00"
+      "next_run": "2026-06-18 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -868,7 +868,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-06-16 13:00:00"
+      "next_run": "2026-06-18 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -880,13 +880,13 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-06-16 14:00:00"
+      "next_run": "2026-06-18 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-06-15 14:00:12",
+      "last_run": "2026-06-17 15:58:07",
       "status": "error",
       "progress": 71,
       "steps": [
@@ -927,7 +927,7 @@
         "",
         "--- download_soundcloud_errors.py ---"
       ],
-      "next_run": "2026-06-16 14:00:00"
+      "next_run": "2026-06-18 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -946,7 +946,7 @@
         "Pulling latest notes...",
         "fatal: unable to access 'https://github.com/sterlingalston/tryhackme.git/': Could not resolve host: github.com"
       ],
-      "next_run": "2026-06-16 15:00:00"
+      "next_run": "2026-06-18 15:00:00"
     }
   ]
 }
