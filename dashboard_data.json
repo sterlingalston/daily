@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-17 16:00:07",
+  "generated_at": "2026-06-29 16:00:58",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-06-17 15:58:07",
-      "status": "running",
-      "progress": 18,
+      "last_run": "2026-06-29 12:00:00",
+      "status": "ok",
+      "progress": 94,
       "steps": [
         {
           "name": ".NVDCache",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": ".Trash-1000",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "AWS Certification",
@@ -51,10 +51,6 @@
         },
         {
           "name": "Brother",
-          "status": "skip"
-        },
-        {
-          "name": "C# Treehouse",
           "status": "skip"
         },
         {
@@ -111,447 +107,439 @@
         },
         {
           "name": "DJ",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Data Engineering",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Data Science",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "DataTalksClub",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "DoNotPay",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Election 2024",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Eliza",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Eliza_rental",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Evernote backups",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "FBReader\u00ae book network",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Finn",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Fitness",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "GC Crates",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "GSA",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Golang",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Google AI Studio",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "GoogleScripts",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Grandma Hazel",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Groupon",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Guitar",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Guitar Recordings",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "HTTP",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Hadoop",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Healthcare",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Heather",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "HelloFax",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Home",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Home buying",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "I'll_Name_This_Bidness_Later_LLC",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Ireland",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Javascript",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Job Applications",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Kali",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Kill Your Loser",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Kim and Matt",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "LGTG (Shared)",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Lars",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Legal shield",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Loan Forgiveness",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "MSA Analytics 2020",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "MSI834e6.tmp",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Mail",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Maple Beer and Wine",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Mareike",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Mat_Makers_LLC",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Mazda",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Memes",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Miscellaneous",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Mixes",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "MoCo College",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Motorcycle",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Movies_TV",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Music",
           "status": "pending"
         },
         {
-          "name": "My Drive",
-          "status": "pending"
-        },
-        {
           "name": "My Kindle Content",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "MySQL",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "NASM",
-          "status": "pending"
-        },
-        {
-          "name": "NITAAC",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Navy reserve",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "NextMile",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Nordic",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Nutrition",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "OkCupid Photos",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Oracle Exam - 1Z0-071 - Certification",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "PCAP Certification",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "PHP",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Paul Davids Guitar",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Penetration Testing",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Photos",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Piano",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Play Books Notes",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Postgres",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Python",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Quick dictionary",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "R",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "ReadEra",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Recipes",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Salsa",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Sawyer Flats",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Security Clearance (DCSA) Results",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Software",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Songs",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Stack",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Stack Export 2022-08-01T07:06:31.437908",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "SteveIRL",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "StrongLifts",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Student Loans",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "T-mobile Credit Freeze",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "TK 70-433",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "TRSS",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Tabata Timer weekly backups",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Tattoo",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Taxes2021",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Taxes2022",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Taxes2023",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Taxes2025",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Taxes2026",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "TeachChina",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "The Beatles",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Treasury Direct",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "UPenn Application",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "USAJOBS",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Upwork",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "VBA Code",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Vanguard Investments",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Visual Studio 2008",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "WalletOfSatoshi_Backup",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Women in music [playlist] - sample",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "Xterra",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "YouTube",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "YouTube Project",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "_ Archive",
@@ -559,7 +547,7 @@
         },
         {
           "name": "__pycache__",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "american_affairs",
@@ -614,6 +602,10 @@
           "status": "skip"
         },
         {
+          "name": "colorado",
+          "status": "skip"
+        },
+        {
           "name": "compressor",
           "status": "pending"
         },
@@ -631,7 +623,7 @@
         },
         {
           "name": "data_annotation",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "email_clean",
@@ -639,43 +631,43 @@
         },
         {
           "name": "guestspot-vip",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "hinge",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "iamtimcorrey",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "imakelists",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "irlflex",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "java flex",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "jokes",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "kim",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "kindle_downloader",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "kindle_downloader_books",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "language-study",
@@ -683,19 +675,19 @@
         },
         {
           "name": "leetcode",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "magnets",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "mailbox_business",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "masterclass",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "mcloud_download",
@@ -707,71 +699,75 @@
         },
         {
           "name": "mentuition",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "mentuition-playwright",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "microsoft_trainings",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "monochrome",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "musizbrainz",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "noteshub",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "notesnook_to_trilium",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "novalauncher backups",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "passport",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "plex_download",
-          "status": "pending"
+          "status": "skip"
+        },
+        {
+          "name": "private_apps",
+          "status": "skip"
         },
         {
           "name": "projects",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "receipts",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "release_dates",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "remarkable-highlights-export",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "rushedlightchronicles",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "shazams",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "shortcuts",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "snowflake_data_engineering(coursera)",
@@ -779,15 +775,11 @@
         },
         {
           "name": "snowpro core",
-          "status": "pending"
-        },
-        {
-          "name": "sr4",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "surveyautomator",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "temp",
@@ -795,15 +787,15 @@
         },
         {
           "name": "tools",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "transcript",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "trilium-data",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "tryhackme",
@@ -811,39 +803,47 @@
         },
         {
           "name": "visual basic",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "workout",
           "status": "pending"
         },
         {
+          "name": "youtube-local",
+          "status": "skip"
+        },
+        {
+          "name": "youtube-local-data",
+          "status": "skip"
+        },
+        {
           "name": "zArchived",
-          "status": "pending"
+          "status": "skip"
         },
         {
           "name": "\ud83c\udf0a Trap Tape _ New Rap Songs 202",
-          "status": "pending"
+          "status": "skip"
         }
       ],
       "counts": {
         "Folders synced": 0,
-        "Folders skipped": 38,
+        "Folders skipped": 192,
         "Rsync errors": 0
       },
       "log_tail": [
-        "'/home/malston/daily/.git/objects/74/5c8f555280f6be98e6fd876177fa115aa820ae' -> '/home/malston/q/daily/.git/objects/74/5c8f555280f6be98e6fd876177fa115aa820ae'",
-        "'/home/malston/daily/.git/objects/12/2709241c022ad39f45ab317e086e1f94508165' -> '/home/malston/q/daily/.git/objects/12/2709241c022ad39f45ab317e086e1f94508165'",
-        "'/home/malston/daily/.git/objects/12/98fb542a78ed7485f2c128d527b1e3431cd31a' -> '/home/malston/q/daily/.git/objects/12/98fb542a78ed7485f2c128d527b1e3431cd31a'",
-        "'/home/malston/daily/.git/objects/00/72fd2655c4939fa5696e22f0ced82faffa9c0a' -> '/home/malston/q/daily/.git/objects/00/72fd2655c4939fa5696e22f0ced82faffa9c0a'",
-        "'/home/malston/daily/.git/objects/85/6c9971f459f225e95ca1820222baaab0da3cde' -> '/home/malston/q/daily/.git/objects/85/6c9971f459f225e95ca1820222baaab0da3cde'",
-        "'/home/malston/daily/.git/objects/d0/f34fe5a30aec18499ccdebf1d91a3d7349bb7a' -> '/home/malston/q/daily/.git/objects/d0/f34fe5a30aec18499ccdebf1d91a3d7349bb7a'",
-        "'/home/malston/daily/.git/objects/d2/90da1cf795899ed9a66f3a2874c0550e9a0738' -> '/home/malston/q/daily/.git/objects/d2/90da1cf795899ed9a66f3a2874c0550e9a0738'",
-        "'/home/malston/daily/.git/objects/6f/dec85e9f97a986093a642353ce9a9059d26f55' -> '/home/malston/q/daily/.git/objects/6f/dec85e9f97a986093a642353ce9a9059d26f55'",
-        "'/home/malston/daily/.git/objects/7e/35014809262e7e188c0e1069714ce44a01e066' -> '/home/malston/q/daily/.git/objects/7e/35014809262e7e188c0e1069714ce44a01e066'",
-        "'/home/malston/daily/.git/objects/e4/057eb4343641a02e2d2d6b83301a242fbd4ab3' -> '/home/malston/q/daily/.git/objects/e4/057eb4343641a02e2d2d6"
+        "'/home/malston/workout/scripts/scrape-fitnessprogramer.js' -> '/home/malston/q/workout/scripts/scrape-fitnessprogramer.js'",
+        "'/home/malston/workout/index.html' -> '/home/malston/q/workout/index.html'",
+        "[2026-06-29 13:38:58] Copied: workout",
+        "[2026-06-29 13:38:58] SKIP (not found): Xterra",
+        "[2026-06-29 13:38:58] SKIP (not found): YouTube",
+        "[2026-06-29 13:38:58] SKIP (not found): youtube-local",
+        "[2026-06-29 13:38:58] SKIP (not found): youtube-local-data",
+        "[2026-06-29 13:38:58] SKIP (not found): YouTube Project",
+        "[2026-06-29 13:38:58] SKIP (not found): zArchived",
+        "[2026-06-29 13:38:58] Backup complete."
       ],
-      "next_run": "2026-06-18 12:00:00"
+      "next_run": "2026-06-30 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -868,7 +868,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-06-18 13:00:00"
+      "next_run": "2026-06-30 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -880,19 +880,19 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-06-18 14:00:00"
+      "next_run": "2026-06-30 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-06-17 15:58:07",
+      "last_run": "2026-06-29 14:00:01",
       "status": "error",
-      "progress": 71,
+      "progress": 85,
       "steps": [
         {
           "name": "import_kcrw.py",
-          "status": "error"
+          "status": "ok"
         },
         {
           "name": "kcrw_dedup.py",
@@ -909,44 +909,55 @@
         {
           "name": "soundcloud_search.py",
           "status": "ok"
+        },
+        {
+          "name": "download_soundcloud_errors.py",
+          "status": "ok"
         }
       ],
       "counts": {
-        "Scripts OK": 2,
-        "Scripts failed": 3
+        "Scripts OK": 4,
+        "Scripts failed": 2
       },
       "log_tail": [
-        "",
-        "--- soundcloud_search.py ---",
-        "Loaded 7923 entries from error log",
-        "Resuming \u2014 5586 already searched",
-        "",
-        "Done. Found: 4269 / 5586",
-        "Results saved to soundcloud_results.json",
-        "\u2713 done",
-        "",
-        "--- download_soundcloud_errors.py ---"
+        "[generic] Extracting URL: ytmsearch5:Maren Morris people still show up [Clean]",
+        "[generic] ytmsearch5:Maren Morris people still show up [Clean]: Downloading webpage",
+        "ERROR: Unable to handle request: Unsupported url scheme: \"ytmsearch5\" (requests, urllib)",
+        "WARNING: Your yt-dlp version (2026.03.13) is older than 90 days!",
+        "         It is strongly recommended to always use the latest version.",
+        "         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.",
+        "         To suppress this warning, add --no-update to your command/config.",
+        "[generic] Extracting URL: ytmsearch5:Maren Morris people still show up [clean]",
+        "[generic] ytmsearch5:Maren Morris people still show up [clean]: Downloading webpage",
+        "ERROR: Unable to handle request: Unsupported url scheme: \"ytmsearch5\" (requests, urllib)"
       ],
-      "next_run": "2026-06-18 14:00:00"
+      "next_run": "2026-06-30 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
       "schedule": "Daily 15:00",
       "hour": 15,
       "last_run": null,
-      "status": "warning",
-      "progress": 50,
+      "status": "ok",
+      "progress": 100,
       "steps": [],
       "counts": {
         "Auto-commits": 0,
         "Vocab files changed": 0
       },
       "log_tail": [
-        "=== Mon Jun 15 03:00:20 PM PDT 2026 ===",
-        "Pulling latest notes...",
-        "fatal: unable to access 'https://github.com/sterlingalston/tryhackme.git/': Could not resolve host: github.com"
+        "Already up to date.",
+        "Running Claude to update vocabulary...",
+        "Done. Two changes were made:",
+        "",
+        "1. **New file** `vocabulary/Introduction/http_in_detail.txt` \u2014 31 terms covering HTTP/HTTPS definitions, URL components (scheme, host, port, path, query string, fragment), HTTP methods (GET, POST, PUT, DELETE), status code ranges, 11 common status codes, and 3 diagram references from the notes.",
+        "",
+        "2. **Updated** `vocabulary/DNS in Detail/dns_in_detail.txt` \u2014 added 2 missing diagram references for the \"Making a DNS Request\" flow and the \"NS Lookup\" terminal output.",
+        "",
+        "All other vocabulary files were already up to date with their corresponding notes.",
+        "Done."
       ],
-      "next_run": "2026-06-18 15:00:00"
+      "next_run": "2026-06-30 15:00:00"
     }
   ]
 }
