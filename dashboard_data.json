@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-01 16:00:08",
+  "generated_at": "2026-07-02 16:00:08",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-07-01 12:00:00",
-      "status": "ok",
-      "progress": 94,
+      "last_run": "2026-07-02 12:21:47",
+      "status": "running",
+      "progress": 47,
       "steps": [
         {
           "name": ".NVDCache",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": ".Trash-1000",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "AWS Certification",
@@ -263,11 +263,11 @@
         },
         {
           "name": "MSA Analytics 2020",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "MSI834e6.tmp",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Mail",
@@ -291,27 +291,27 @@
         },
         {
           "name": "Memes",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Miscellaneous",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Mixes",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "MoCo College",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Motorcycle",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Movies_TV",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Music",
@@ -319,227 +319,227 @@
         },
         {
           "name": "My Kindle Content",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "MySQL",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "NASM",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Navy reserve",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "NextMile",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Nordic",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Nutrition",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "OkCupid Photos",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Oracle Exam - 1Z0-071 - Certification",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "PCAP Certification",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "PHP",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Paul Davids Guitar",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Penetration Testing",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Photos",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Piano",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Play Books Notes",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Postgres",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Python",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Quick dictionary",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "R",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "ReadEra",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Recipes",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Salsa",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Sawyer Flats",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Security Clearance (DCSA) Results",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Software",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Songs",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Stack",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Stack Export 2022-08-01T07:06:31.437908",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "SteveIRL",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "StrongLifts",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Student Loans",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "T-mobile Credit Freeze",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "TK 70-433",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "TRSS",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Tabata Timer weekly backups",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Tattoo",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Taxes2021",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Taxes2022",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Taxes2023",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Taxes2025",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Taxes2026",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "TeachChina",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "The Beatles",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Treasury Direct",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "UPenn Application",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "USAJOBS",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Upwork",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "VBA Code",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Vanguard Investments",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Visual Studio 2008",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "WalletOfSatoshi_Backup",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Women in music [playlist] - sample",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "Xterra",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "YouTube",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "YouTube Project",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "_ Archive",
@@ -547,7 +547,7 @@
         },
         {
           "name": "__pycache__",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "american_affairs",
@@ -695,75 +695,75 @@
         },
         {
           "name": "mentuition",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "mentuition-playwright",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "microsoft_trainings",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "monochrome",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "musizbrainz",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "noteshub",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "notesnook_to_trilium",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "novalauncher backups",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "passport",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "plex_download",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "private_apps",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "projects",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "receipts",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "release_dates",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "remarkable-highlights-export",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "rushedlightchronicles",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "shazams",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "shortcuts",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "snowflake_data_engineering(coursera)",
@@ -771,11 +771,11 @@
         },
         {
           "name": "snowpro core",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "surveyautomator",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "temp",
@@ -783,15 +783,15 @@
         },
         {
           "name": "tools",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "transcript",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "trilium-data",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "tryhackme",
@@ -799,7 +799,7 @@
         },
         {
           "name": "visual basic",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "workout",
@@ -807,39 +807,39 @@
         },
         {
           "name": "youtube-local",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "youtube-local-data",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "zArchived",
-          "status": "skip"
+          "status": "pending"
         },
         {
           "name": "\ud83c\udf0a Trap Tape _ New Rap Songs 202",
-          "status": "skip"
+          "status": "pending"
         }
       ],
       "counts": {
         "Folders synced": 0,
-        "Folders skipped": 191,
+        "Folders skipped": 96,
         "Rsync errors": 0
       },
       "log_tail": [
-        "'/home/malston/workout/scripts/scrape-fitnessprogramer.js' -> '/home/malston/q/workout/scripts/scrape-fitnessprogramer.js'",
-        "'/home/malston/workout/index.html' -> '/home/malston/q/workout/index.html'",
-        "[2026-07-01 15:56:58] Copied: workout",
-        "[2026-07-01 15:56:58] SKIP (not found): Xterra",
-        "[2026-07-01 15:56:58] SKIP (not found): YouTube",
-        "[2026-07-01 15:56:58] SKIP (not found): youtube-local",
-        "[2026-07-01 15:56:58] SKIP (not found): youtube-local-data",
-        "[2026-07-01 15:56:58] SKIP (not found): YouTube Project",
-        "[2026-07-01 15:56:58] SKIP (not found): zArchived",
-        "[2026-07-01 15:56:58] Backup complete."
+        "'/home/malston/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/cache/cache-entry-noop.worker.js.map' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/cache/cache-entry-noop.worker.js.map'",
+        "'/home/malston/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/cache/cache-entry.worker.js.map' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/cache/cache-entry.worker.js.map'",
+        "'/home/malston/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/cache/cache.worker.js.map' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/cache/cache.worker.js.map'",
+        "'/home/malston/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/d1/database.worker.js' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/d1/database.worker.js'",
+        "'/home/malston/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/d1/database.worker.js.map' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/d1/database.worker.js.map'",
+        "'/home/malston/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/dispatch-namespace/dispatch-namespace.worker.js' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/dispatch-namespace/dispatch-namespace.worker.js'",
+        "'/home/malston/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/dispatch-namespace/dispatch-namespace.worker.js.map' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/dispatch-namespace/dispatch-namespace.worker.js.map'",
+        "'/home/malston/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/email/email.worker.js' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/email/email.worker.js'",
+        "'/home/malston/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/email/send_email.worker.js' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/email/send_email.worker.js'",
+        "'/home/malston/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/email/email.worker.js.map' -> '/home/malston/q/mcloud_playlists/monochrome/node_modules/miniflare/dist/src/workers/email/email.worker.js."
       ],
-      "next_run": "2026-07-02 12:00:00"
+      "next_run": "2026-07-03 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -864,7 +864,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-07-02 13:00:00"
+      "next_run": "2026-07-03 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -876,13 +876,13 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-07-02 14:00:00"
+      "next_run": "2026-07-03 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-07-01 14:00:01",
+      "last_run": "2026-07-02 14:00:01",
       "status": "warning",
       "progress": 100,
       "steps": [
@@ -929,9 +929,9 @@
         "requests.exceptions.ConnectionError: HTTPSConnectionPool(host='dabmusic.xyz', port=443): Max retries exceeded with url: /api/libraries (Caused by NewConnectionError(\"HTTPSConnection(host='dabmusic.xyz', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
         "\u2717 failed (exit 1)",
         "",
-        "2026-07-01 14:08:55 \u2014 finished"
+        "2026-07-02 14:14:52 \u2014 finished"
       ],
-      "next_run": "2026-07-02 14:00:00"
+      "next_run": "2026-07-03 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -946,13 +946,13 @@
         "Vocab files changed": 0
       },
       "log_tail": [
-        "=== Wed Jul  1 03:00:01 PM PDT 2026 ===",
+        "=== Thu Jul  2 03:00:01 PM PDT 2026 ===",
         "Pulling latest notes...",
         "Already up to date.",
         "Running Claude to update vocabulary...",
-        "Your organization does not have access to Claude. Please login again or contact your administrator."
+        "Failed to authenticate. API Error: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"Invalid authentication credentials\"},\"request_id\":\"req_011CcdywLbbNcKaTpqe2AKt1\"}"
       ],
-      "next_run": "2026-07-02 15:00:00"
+      "next_run": "2026-07-03 15:00:00"
     }
   ]
 }
