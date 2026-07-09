@@ -1,608 +1,16 @@
 {
-  "generated_at": "2026-07-06 16:00:07",
+  "generated_at": "2026-07-09 16:00:09",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-07-06 12:00:00",
+      "last_run": "2026-07-09 12:00:00",
       "status": "ok",
-      "progress": 94,
+      "progress": 0,
       "steps": [
         {
-          "name": ".NVDCache",
-          "status": "skip"
-        },
-        {
-          "name": ".Trash-1000",
-          "status": "skip"
-        },
-        {
-          "name": "AWS Certification",
-          "status": "skip"
-        },
-        {
-          "name": "Andgar",
-          "status": "skip"
-        },
-        {
-          "name": "Asurion",
-          "status": "skip"
-        },
-        {
-          "name": "Bellingham",
-          "status": "skip"
-        },
-        {
-          "name": "Bookmarks",
-          "status": "skip"
-        },
-        {
-          "name": "Books",
-          "status": "skip"
-        },
-        {
-          "name": "Bozman",
-          "status": "skip"
-        },
-        {
-          "name": "Brighthouse",
-          "status": "skip"
-        },
-        {
-          "name": "Brother",
-          "status": "skip"
-        },
-        {
-          "name": "CEH",
-          "status": "skip"
-        },
-        {
-          "name": "CPMC",
-          "status": "skip"
-        },
-        {
-          "name": "Care Credit",
-          "status": "skip"
-        },
-        {
-          "name": "Charisma",
-          "status": "skip"
-        },
-        {
-          "name": "Clearance Records",
-          "status": "skip"
-        },
-        {
-          "name": "Codeacademy",
-          "status": "skip"
-        },
-        {
-          "name": "Colab Notebooks",
-          "status": "skip"
-        },
-        {
-          "name": "Colonial Parking",
-          "status": "skip"
-        },
-        {
-          "name": "Comedy",
-          "status": "skip"
-        },
-        {
-          "name": "CompTIA Linux+",
-          "status": "skip"
-        },
-        {
-          "name": "CompTIA Security+",
-          "status": "skip"
-        },
-        {
-          "name": "Coursera Data Science IBM",
-          "status": "skip"
-        },
-        {
-          "name": "Cyber Security",
-          "status": "skip"
-        },
-        {
-          "name": "DJ",
-          "status": "skip"
-        },
-        {
-          "name": "Data Engineering",
-          "status": "skip"
-        },
-        {
-          "name": "Data Science",
-          "status": "skip"
-        },
-        {
-          "name": "DataTalksClub",
-          "status": "skip"
-        },
-        {
-          "name": "DoNotPay",
-          "status": "skip"
-        },
-        {
-          "name": "Election 2024",
-          "status": "skip"
-        },
-        {
-          "name": "Eliza",
-          "status": "skip"
-        },
-        {
-          "name": "Eliza_rental",
-          "status": "skip"
-        },
-        {
-          "name": "Evernote backups",
-          "status": "skip"
-        },
-        {
-          "name": "FBReader\u00ae book network",
-          "status": "skip"
-        },
-        {
-          "name": "Finn",
-          "status": "skip"
-        },
-        {
-          "name": "Fitness",
-          "status": "skip"
-        },
-        {
-          "name": "GC Crates",
-          "status": "skip"
-        },
-        {
-          "name": "GSA",
-          "status": "skip"
-        },
-        {
-          "name": "Golang",
-          "status": "skip"
-        },
-        {
-          "name": "Google AI Studio",
-          "status": "skip"
-        },
-        {
-          "name": "GoogleScripts",
-          "status": "skip"
-        },
-        {
-          "name": "Grandma Hazel",
-          "status": "skip"
-        },
-        {
-          "name": "Groupon",
-          "status": "skip"
-        },
-        {
-          "name": "Guitar",
-          "status": "skip"
-        },
-        {
-          "name": "Guitar Recordings",
-          "status": "skip"
-        },
-        {
-          "name": "HTTP",
-          "status": "skip"
-        },
-        {
-          "name": "Hadoop",
-          "status": "skip"
-        },
-        {
-          "name": "Healthcare",
-          "status": "skip"
-        },
-        {
-          "name": "Heather",
-          "status": "skip"
-        },
-        {
-          "name": "HelloFax",
-          "status": "skip"
-        },
-        {
-          "name": "Home",
-          "status": "skip"
-        },
-        {
-          "name": "Home buying",
-          "status": "skip"
-        },
-        {
-          "name": "I'll_Name_This_Bidness_Later_LLC",
-          "status": "skip"
-        },
-        {
-          "name": "Javascript",
-          "status": "skip"
-        },
-        {
-          "name": "Job Applications",
-          "status": "skip"
-        },
-        {
-          "name": "Kali",
-          "status": "skip"
-        },
-        {
-          "name": "Kill Your Loser",
-          "status": "skip"
-        },
-        {
-          "name": "Kim and Matt",
-          "status": "skip"
-        },
-        {
-          "name": "LGTG (Shared)",
-          "status": "skip"
-        },
-        {
-          "name": "Lars",
-          "status": "skip"
-        },
-        {
-          "name": "Legal shield",
-          "status": "skip"
-        },
-        {
-          "name": "Loan Forgiveness",
-          "status": "skip"
-        },
-        {
-          "name": "MSA Analytics 2020",
-          "status": "skip"
-        },
-        {
-          "name": "MSI834e6.tmp",
-          "status": "skip"
-        },
-        {
-          "name": "Mail",
-          "status": "skip"
-        },
-        {
-          "name": "Maple Beer and Wine",
-          "status": "skip"
-        },
-        {
-          "name": "Mareike",
-          "status": "skip"
-        },
-        {
-          "name": "Mat_Makers_LLC",
-          "status": "skip"
-        },
-        {
-          "name": "Mazda",
-          "status": "skip"
-        },
-        {
-          "name": "Memes",
-          "status": "skip"
-        },
-        {
-          "name": "Miscellaneous",
-          "status": "skip"
-        },
-        {
-          "name": "Mixes",
-          "status": "skip"
-        },
-        {
-          "name": "MoCo College",
-          "status": "skip"
-        },
-        {
-          "name": "Motorcycle",
-          "status": "skip"
-        },
-        {
-          "name": "Movies_TV",
-          "status": "skip"
-        },
-        {
           "name": "Music",
-          "status": "pending"
-        },
-        {
-          "name": "My Kindle Content",
-          "status": "skip"
-        },
-        {
-          "name": "MySQL",
-          "status": "skip"
-        },
-        {
-          "name": "NASM",
-          "status": "skip"
-        },
-        {
-          "name": "Navy reserve",
-          "status": "skip"
-        },
-        {
-          "name": "NextMile",
-          "status": "skip"
-        },
-        {
-          "name": "Nordic",
-          "status": "skip"
-        },
-        {
-          "name": "Nutrition",
-          "status": "skip"
-        },
-        {
-          "name": "OkCupid Photos",
-          "status": "skip"
-        },
-        {
-          "name": "Oracle Exam - 1Z0-071 - Certification",
-          "status": "skip"
-        },
-        {
-          "name": "PCAP Certification",
-          "status": "skip"
-        },
-        {
-          "name": "PHP",
-          "status": "skip"
-        },
-        {
-          "name": "Paul Davids Guitar",
-          "status": "skip"
-        },
-        {
-          "name": "Penetration Testing",
-          "status": "skip"
-        },
-        {
-          "name": "Photos",
-          "status": "skip"
-        },
-        {
-          "name": "Piano",
-          "status": "skip"
-        },
-        {
-          "name": "Play Books Notes",
-          "status": "skip"
-        },
-        {
-          "name": "Postgres",
-          "status": "skip"
-        },
-        {
-          "name": "Python",
-          "status": "skip"
-        },
-        {
-          "name": "Quick dictionary",
-          "status": "skip"
-        },
-        {
-          "name": "R",
-          "status": "skip"
-        },
-        {
-          "name": "ReadEra",
-          "status": "skip"
-        },
-        {
-          "name": "Recipes",
-          "status": "skip"
-        },
-        {
-          "name": "Salsa",
-          "status": "skip"
-        },
-        {
-          "name": "Sawyer Flats",
-          "status": "skip"
-        },
-        {
-          "name": "Security Clearance (DCSA) Results",
-          "status": "skip"
-        },
-        {
-          "name": "Software",
-          "status": "skip"
-        },
-        {
-          "name": "Songs",
-          "status": "skip"
-        },
-        {
-          "name": "Stack",
-          "status": "skip"
-        },
-        {
-          "name": "Stack Export 2022-08-01T07:06:31.437908",
-          "status": "skip"
-        },
-        {
-          "name": "SteveIRL",
-          "status": "skip"
-        },
-        {
-          "name": "StrongLifts",
-          "status": "skip"
-        },
-        {
-          "name": "Student Loans",
-          "status": "skip"
-        },
-        {
-          "name": "T-mobile Credit Freeze",
-          "status": "skip"
-        },
-        {
-          "name": "TK 70-433",
-          "status": "skip"
-        },
-        {
-          "name": "TRSS",
-          "status": "skip"
-        },
-        {
-          "name": "Tabata Timer weekly backups",
-          "status": "skip"
-        },
-        {
-          "name": "Tattoo",
-          "status": "skip"
-        },
-        {
-          "name": "Taxes2021",
-          "status": "skip"
-        },
-        {
-          "name": "Taxes2022",
-          "status": "skip"
-        },
-        {
-          "name": "Taxes2023",
-          "status": "skip"
-        },
-        {
-          "name": "Taxes2025",
-          "status": "skip"
-        },
-        {
-          "name": "Taxes2026",
-          "status": "skip"
-        },
-        {
-          "name": "TeachChina",
-          "status": "skip"
-        },
-        {
-          "name": "The Beatles",
-          "status": "skip"
-        },
-        {
-          "name": "Treasury Direct",
-          "status": "skip"
-        },
-        {
-          "name": "UPenn Application",
-          "status": "skip"
-        },
-        {
-          "name": "USAJOBS",
-          "status": "skip"
-        },
-        {
-          "name": "Upwork",
-          "status": "skip"
-        },
-        {
-          "name": "VBA Code",
-          "status": "skip"
-        },
-        {
-          "name": "Vanguard Investments",
-          "status": "skip"
-        },
-        {
-          "name": "Visual Studio 2008",
-          "status": "skip"
-        },
-        {
-          "name": "WalletOfSatoshi_Backup",
-          "status": "skip"
-        },
-        {
-          "name": "Women in music [playlist] - sample",
-          "status": "skip"
-        },
-        {
-          "name": "Xterra",
-          "status": "skip"
-        },
-        {
-          "name": "YouTube",
-          "status": "skip"
-        },
-        {
-          "name": "YouTube Project",
-          "status": "skip"
-        },
-        {
-          "name": "_ Archive",
-          "status": "skip"
-        },
-        {
-          "name": "__pycache__",
-          "status": "skip"
-        },
-        {
-          "name": "american_affairs",
-          "status": "skip"
-        },
-        {
-          "name": "armchair history",
-          "status": "skip"
-        },
-        {
-          "name": "audiobooks",
-          "status": "skip"
-        },
-        {
-          "name": "basil",
-          "status": "skip"
-        },
-        {
-          "name": "bfsfcu20230610",
-          "status": "skip"
-        },
-        {
-          "name": "blackjack",
-          "status": "skip"
-        },
-        {
-          "name": "brian",
-          "status": "skip"
-        },
-        {
-          "name": "brilliant",
-          "status": "skip"
-        },
-        {
-          "name": "budgeting",
-          "status": "skip"
-        },
-        {
-          "name": "calendar",
-          "status": "skip"
-        },
-        {
-          "name": "cigna_eob20240506",
-          "status": "skip"
-        },
-        {
-          "name": "cigna_eob20240525",
-          "status": "skip"
-        },
-        {
-          "name": "codewars",
-          "status": "skip"
-        },
-        {
-          "name": "colorado",
-          "status": "skip"
-        },
-        {
-          "name": "compressor",
           "status": "pending"
         },
         {
@@ -610,76 +18,8 @@
           "status": "pending"
         },
         {
-          "name": "dabmusic",
-          "status": "skip"
-        },
-        {
-          "name": "daily",
-          "status": "pending"
-        },
-        {
-          "name": "data_annotation",
-          "status": "skip"
-        },
-        {
-          "name": "email_clean",
-          "status": "pending"
-        },
-        {
-          "name": "hinge",
-          "status": "skip"
-        },
-        {
-          "name": "iamtimcorrey",
-          "status": "skip"
-        },
-        {
-          "name": "imakelists",
-          "status": "skip"
-        },
-        {
-          "name": "irlflex",
-          "status": "skip"
-        },
-        {
-          "name": "java flex",
-          "status": "skip"
-        },
-        {
-          "name": "jokes",
-          "status": "skip"
-        },
-        {
-          "name": "kim",
-          "status": "skip"
-        },
-        {
-          "name": "kindle_downloader",
-          "status": "skip"
-        },
-        {
-          "name": "kindle_downloader_books",
-          "status": "skip"
-        },
-        {
           "name": "language-study",
           "status": "pending"
-        },
-        {
-          "name": "leetcode",
-          "status": "skip"
-        },
-        {
-          "name": "magnets",
-          "status": "skip"
-        },
-        {
-          "name": "mailbox_business",
-          "status": "skip"
-        },
-        {
-          "name": "masterclass",
-          "status": "skip"
         },
         {
           "name": "mcloud_download",
@@ -690,160 +30,28 @@
           "status": "pending"
         },
         {
-          "name": "mentuition",
-          "status": "skip"
-        },
-        {
-          "name": "mentuition-playwright",
-          "status": "skip"
-        },
-        {
-          "name": "microsoft_trainings",
-          "status": "skip"
-        },
-        {
-          "name": "monochrome",
-          "status": "skip"
-        },
-        {
-          "name": "musizbrainz",
-          "status": "skip"
-        },
-        {
-          "name": "noteshub",
-          "status": "skip"
-        },
-        {
-          "name": "notesnook_to_trilium",
-          "status": "skip"
-        },
-        {
-          "name": "novalauncher backups",
-          "status": "skip"
-        },
-        {
-          "name": "passport",
-          "status": "skip"
-        },
-        {
-          "name": "pickupmusic",
-          "status": "skip"
-        },
-        {
-          "name": "plex_download",
-          "status": "skip"
-        },
-        {
-          "name": "private_apps",
-          "status": "skip"
-        },
-        {
-          "name": "projects",
-          "status": "skip"
-        },
-        {
-          "name": "receipts",
-          "status": "skip"
-        },
-        {
-          "name": "release_dates",
-          "status": "skip"
-        },
-        {
-          "name": "remarkable-highlights-export",
-          "status": "skip"
-        },
-        {
-          "name": "rushedlightchronicles",
-          "status": "skip"
-        },
-        {
-          "name": "shazams",
-          "status": "skip"
-        },
-        {
-          "name": "shortcuts",
-          "status": "skip"
-        },
-        {
-          "name": "snowflake_data_engineering(coursera)",
-          "status": "pending"
-        },
-        {
-          "name": "snowpro core",
-          "status": "skip"
-        },
-        {
-          "name": "surveyautomator",
-          "status": "skip"
-        },
-        {
-          "name": "temp",
-          "status": "pending"
-        },
-        {
-          "name": "tmp",
-          "status": "skip"
-        },
-        {
-          "name": "tools",
-          "status": "skip"
-        },
-        {
-          "name": "transcript",
-          "status": "skip"
-        },
-        {
-          "name": "trilium-data",
-          "status": "skip"
-        },
-        {
           "name": "tryhackme",
           "status": "pending"
-        },
-        {
-          "name": "visual basic",
-          "status": "skip"
-        },
-        {
-          "name": "workout",
-          "status": "pending"
-        },
-        {
-          "name": "youtube-local",
-          "status": "skip"
-        },
-        {
-          "name": "youtube-local-data",
-          "status": "skip"
-        },
-        {
-          "name": "zArchived",
-          "status": "skip"
-        },
-        {
-          "name": "\ud83c\udf0a Trap Tape _ New Rap Songs 202",
-          "status": "skip"
         }
       ],
       "counts": {
         "Folders synced": 0,
-        "Folders skipped": 192,
+        "Folders skipped": 0,
         "Rsync errors": 0
       },
       "log_tail": [
-        "'/home/malston/workout/scripts/scrape-fitnessprogramer.js' -> '/home/malston/q/workout/scripts/scrape-fitnessprogramer.js'",
-        "'/home/malston/workout/index.html' -> '/home/malston/q/workout/index.html'",
-        "[2026-07-06 13:45:44] Copied: workout",
-        "[2026-07-06 13:45:44] SKIP (not found): Xterra",
-        "[2026-07-06 13:45:44] SKIP (not found): YouTube",
-        "[2026-07-06 13:45:44] SKIP (not found): youtube-local",
-        "[2026-07-06 13:45:44] SKIP (not found): youtube-local-data",
-        "[2026-07-06 13:45:44] SKIP (not found): YouTube Project",
-        "[2026-07-06 13:45:44] SKIP (not found): zArchived",
-        "[2026-07-06 13:45:44] Backup complete."
+        "'/home/malston/tryhackme/.git/COMMIT_EDITMSG' -> '/home/malston/q/tryhackme/.git/COMMIT_EDITMSG'",
+        "'/home/malston/tryhackme/.git/logs/HEAD' -> '/home/malston/q/tryhackme/.git/logs/HEAD'",
+        "'/home/malston/tryhackme/.git/logs/refs/heads/main' -> '/home/malston/q/tryhackme/.git/logs/refs/heads/main'",
+        "'/home/malston/tryhackme/.git/logs/refs/remotes/origin/main' -> '/home/malston/q/tryhackme/.git/logs/refs/remotes/origin/main'",
+        "'/home/malston/tryhackme/README.md' -> '/home/malston/q/tryhackme/README.md'",
+        "'/home/malston/tryhackme/scripts/update_vocab.log' -> '/home/malston/q/tryhackme/scripts/update_vocab.log'",
+        "'/home/malston/tryhackme/scripts/update_vocab.sh' -> '/home/malston/q/tryhackme/scripts/update_vocab.sh'",
+        "'/home/malston/tryhackme/.claude/settings.local.json' -> '/home/malston/q/tryhackme/.claude/settings.local.json'",
+        "[2026-07-09 12:00:02] Copied: tryhackme",
+        "[2026-07-09 12:00:02] Backup complete."
       ],
-      "next_run": "2026-07-07 12:00:00"
+      "next_run": "2026-07-10 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -868,7 +76,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-07-07 13:00:00"
+      "next_run": "2026-07-10 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -880,13 +88,13 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-07-07 14:00:00"
+      "next_run": "2026-07-10 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-07-06 14:00:01",
+      "last_run": "2026-07-09 14:00:01",
       "status": "warning",
       "progress": 100,
       "steps": [
@@ -933,9 +141,9 @@
         "requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dabmusic.xyz/api/libraries",
         "\u2717 failed (exit 1)",
         "",
-        "2026-07-06 14:10:18 \u2014 finished"
+        "2026-07-09 14:48:51 \u2014 finished"
       ],
-      "next_run": "2026-07-07 14:00:00"
+      "next_run": "2026-07-10 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -947,16 +155,21 @@
       "steps": [],
       "counts": {
         "Auto-commits": 0,
-        "Vocab files changed": 0
+        "Vocab files changed": 1
       },
       "log_tail": [
-        "=== Mon Jul  6 03:00:01 PM PDT 2026 ===",
-        "Pulling latest notes...",
-        "Already up to date.",
+        " rename {4 - DNS in Detail => How The Web Works/4 - DNS in Detail}/.attachments/559d3d77226794fd6070c259d368172df1b505d6.png (100%)",
+        " rename {4 - DNS in Detail => How The Web Works/4 - DNS in Detail}/.attachments/6b2c639f66299f58d2f3d73486a544bc6e84ac9b.png (100%)",
+        " rename {4 - DNS in Detail => How The Web Works/4 - DNS in Detail}/.attachments/b1d9db901b1178c01500f2137818d06e5ab103e3.png (100%)",
+        " rename {4 - DNS in Detail => How The Web Works/4 - DNS in Detail}/.attachments/cc929d9ffeec55e796c51717fb7ce3aa7c658826.png (100%)",
+        " create mode 100644 How The Web Works/4 - DNS in Detail/.gitkeep",
+        " rename {4 - DNS in Detail => How The Web Works/4 - DNS in Detail}/DNS in detail.md (100%)",
+        " rename 5 - HTTP in Detail.md => How The Web Works/5 - HTTP in Detail.md (71%)",
+        " create mode 100644 How The Web Works/6 - How Websites Work.md",
         "Running Claude to update vocabulary...",
-        "Failed to authenticate. API Error: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"Invalid authentication credentials\"},\"request_id\":\"req_011CcmZB89zgh47nRQ5i9UX5\"}"
+        "Failed to authenticate. API Error: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"Invalid authentication credentials\"},\"request_id\":\"req_011CcsEbsgrY4fQtje21h9sh\"}"
       ],
-      "next_run": "2026-07-07 15:00:00"
+      "next_run": "2026-07-10 15:00:00"
     }
   ]
 }
