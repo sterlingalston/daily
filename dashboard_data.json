@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-09 16:00:09",
+  "generated_at": "2026-07-13 16:00:08",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-07-09 12:00:00",
+      "last_run": "2026-07-13 14:19:46",
       "status": "ok",
       "progress": 0,
       "steps": [
@@ -48,10 +48,10 @@
         "'/home/malston/tryhackme/scripts/update_vocab.log' -> '/home/malston/q/tryhackme/scripts/update_vocab.log'",
         "'/home/malston/tryhackme/scripts/update_vocab.sh' -> '/home/malston/q/tryhackme/scripts/update_vocab.sh'",
         "'/home/malston/tryhackme/.claude/settings.local.json' -> '/home/malston/q/tryhackme/.claude/settings.local.json'",
-        "[2026-07-09 12:00:02] Copied: tryhackme",
-        "[2026-07-09 12:00:02] Backup complete."
+        "[2026-07-13 14:19:54] Copied: tryhackme",
+        "[2026-07-13 14:19:54] Backup complete."
       ],
-      "next_run": "2026-07-10 12:00:00"
+      "next_run": "2026-07-14 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -76,7 +76,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-07-10 13:00:00"
+      "next_run": "2026-07-14 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -88,19 +88,19 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-07-10 14:00:00"
+      "next_run": "2026-07-14 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-07-09 14:00:01",
+      "last_run": "2026-07-13 14:19:46",
       "status": "warning",
       "progress": 100,
       "steps": [
         {
           "name": "import_kcrw.py",
-          "status": "ok"
+          "status": "error"
         },
         {
           "name": "kcrw_dedup.py",
@@ -128,8 +128,8 @@
         }
       ],
       "counts": {
-        "Scripts OK": 4,
-        "Scripts failed": 3
+        "Scripts OK": 3,
+        "Scripts failed": 4
       },
       "log_tail": [
         "           ~~~~~~~~~^^^^^^^^^^^^^",
@@ -138,12 +138,12 @@
         "    ~~~~~~~~~~~~~~~~~~~~~^^",
         "  File \"/home/malston/miniconda3/lib/python3.13/site-packages/requests/models.py\", line 1028, in raise_for_status",
         "    raise HTTPError(http_error_msg, response=self)",
-        "requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://dabmusic.xyz/api/libraries",
+        "requests.exceptions.HTTPError: 522 Server Error: <none> for url: https://dabmusic.xyz/api/libraries",
         "\u2717 failed (exit 1)",
         "",
-        "2026-07-09 14:48:51 \u2014 finished"
+        "2026-07-13 15:13:37 \u2014 finished"
       ],
-      "next_run": "2026-07-10 14:00:00"
+      "next_run": "2026-07-14 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -155,21 +155,16 @@
       "steps": [],
       "counts": {
         "Auto-commits": 0,
-        "Vocab files changed": 1
+        "Vocab files changed": 0
       },
       "log_tail": [
-        " rename {4 - DNS in Detail => How The Web Works/4 - DNS in Detail}/.attachments/559d3d77226794fd6070c259d368172df1b505d6.png (100%)",
-        " rename {4 - DNS in Detail => How The Web Works/4 - DNS in Detail}/.attachments/6b2c639f66299f58d2f3d73486a544bc6e84ac9b.png (100%)",
-        " rename {4 - DNS in Detail => How The Web Works/4 - DNS in Detail}/.attachments/b1d9db901b1178c01500f2137818d06e5ab103e3.png (100%)",
-        " rename {4 - DNS in Detail => How The Web Works/4 - DNS in Detail}/.attachments/cc929d9ffeec55e796c51717fb7ce3aa7c658826.png (100%)",
-        " create mode 100644 How The Web Works/4 - DNS in Detail/.gitkeep",
-        " rename {4 - DNS in Detail => How The Web Works/4 - DNS in Detail}/DNS in detail.md (100%)",
-        " rename 5 - HTTP in Detail.md => How The Web Works/5 - HTTP in Detail.md (71%)",
-        " create mode 100644 How The Web Works/6 - How Websites Work.md",
+        "=== Mon Jul 13 03:00:01 PM PDT 2026 ===",
+        "Pulling latest notes...",
+        "Already up to date.",
         "Running Claude to update vocabulary...",
-        "Failed to authenticate. API Error: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"Invalid authentication credentials\"},\"request_id\":\"req_011CcsEbsgrY4fQtje21h9sh\"}"
+        "Failed to authenticate. API Error: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"Invalid authentication credentials\"},\"request_id\":\"req_011CczoqT9jQW55V2zDCG6fJ\"}"
       ],
-      "next_run": "2026-07-10 15:00:00"
+      "next_run": "2026-07-14 15:00:00"
     }
   ]
 }
