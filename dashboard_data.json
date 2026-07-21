@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-20 16:00:08",
+  "generated_at": "2026-07-21 16:00:09",
   "jobs": [
     {
       "name": "Backup to Q (rsync)",
       "schedule": "Daily 12:00",
       "hour": 12,
-      "last_run": "2026-07-20 12:27:28",
+      "last_run": "2026-07-21 12:00:00",
       "status": "ok",
       "progress": 0,
       "steps": [
@@ -48,10 +48,10 @@
         "'/home/malston/tryhackme/scripts/update_vocab.log' -> '/home/malston/q/tryhackme/scripts/update_vocab.log'",
         "'/home/malston/tryhackme/scripts/update_vocab.sh' -> '/home/malston/q/tryhackme/scripts/update_vocab.sh'",
         "'/home/malston/tryhackme/.claude/settings.local.json' -> '/home/malston/q/tryhackme/.claude/settings.local.json'",
-        "[2026-07-20 12:27:30] Copied: tryhackme",
-        "[2026-07-20 12:27:30] Backup complete."
+        "[2026-07-21 12:00:02] Copied: tryhackme",
+        "[2026-07-21 12:00:02] Backup complete."
       ],
-      "next_run": "2026-07-21 12:00:00"
+      "next_run": "2026-07-22 12:00:00"
     },
     {
       "name": "Import Spotify",
@@ -76,7 +76,7 @@
         "  File \"<frozen os>\", line 717, in __getitem__",
         "KeyError: 'SPOTIFY_CLIENT_ID'"
       ],
-      "next_run": "2026-07-21 13:00:00"
+      "next_run": "2026-07-22 13:00:00"
     },
     {
       "name": "Sync KCRW",
@@ -88,13 +88,13 @@
       "steps": [],
       "counts": {},
       "log_tail": [],
-      "next_run": "2026-07-21 14:00:00"
+      "next_run": "2026-07-22 14:00:00"
     },
     {
       "name": "Run KCRW Daily",
       "schedule": "Daily 14:00",
       "hour": 14,
-      "last_run": "2026-07-20 14:00:01",
+      "last_run": "2026-07-21 14:00:01",
       "status": "warning",
       "progress": 100,
       "steps": [
@@ -141,9 +141,9 @@
         "PermissionError: Authentication required. Pass cookies= to DabMusic().",
         "\u2717 failed (exit 1)",
         "",
-        "2026-07-20 14:48:36 \u2014 finished"
+        "2026-07-21 14:54:11 \u2014 finished"
       ],
-      "next_run": "2026-07-21 14:00:00"
+      "next_run": "2026-07-22 14:00:00"
     },
     {
       "name": "Update TryHackMe Vocab",
@@ -158,13 +158,13 @@
         "Vocab files changed": 0
       },
       "log_tail": [
-        "=== Mon Jul 20 03:00:01 PM PDT 2026 ===",
+        "=== Tue Jul 21 03:00:01 PM PDT 2026 ===",
         "Pulling latest notes...",
         "Already up to date.",
         "Running Claude to update vocabulary...",
-        "Failed to authenticate. API Error: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"Invalid authentication credentials\"},\"request_id\":\"req_011CdE4W5GN7YXxjjHXnNJqB\"}"
+        "Failed to authenticate. API Error: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"Invalid authentication credentials\"},\"request_id\":\"req_011CdFxK1QhLyWufcXrVfYbY\"}"
       ],
-      "next_run": "2026-07-21 15:00:00"
+      "next_run": "2026-07-22 15:00:00"
     }
   ]
 }
